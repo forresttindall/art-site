@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navigation from './components/Navigation';
 import Homepage from './components/Homepage';
@@ -11,6 +11,15 @@ import Contact from './components/Contact';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
+
+  // Scroll to top whenever the page changes
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, [currentPage]);
 
   const renderPage = () => {
     switch (currentPage) {

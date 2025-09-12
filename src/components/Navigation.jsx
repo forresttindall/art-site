@@ -1,19 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 
 const Navigation = ({ currentPage, setCurrentPage }) => {
-  const navItems = ['PROJECTS', 'PHOTOGRAPHY', 'WRITING', 'ILLUSTRATION', 'BIOGRAPHY', 'CONTACT'];   
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navItems = ['PROJECTS', 'PHOTOGRAPHY', 'WRITING', 'ILLUSTRATION', 'BIOGRAPHY', 'CONTACT'];
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const handleNavClick = (page) => {
+    setCurrentPage(page);
+    setIsMobileMenuOpen(false); // Close mobile menu when item is clicked
+  };
 
   return (
     <nav className="navigation">
-      <div className="logo" onClick={() => setCurrentPage('home')} style={{ cursor: 'pointer' }}>
-        <img src="/images/redx.png" alt="Logo" />
+      <div className="logo" onClick={() => handleNavClick('home')} style={{ cursor: 'pointer' }}>
+        <img src="/images/logo.png" alt="Logo" />
       </div>
-      <ul className="nav-links">
+      
+      {/* Hamburger Menu Button */}
+      <button 
+        className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`}
+        onClick={toggleMobileMenu}
+        aria-label="Toggle navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
         <li>
           <button 
             className={currentPage === 'home' ? 'active' : ''}
-            onClick={() => setCurrentPage('home')}
+            onClick={() => handleNavClick('home')}
           >
             HOME
           </button>
@@ -22,7 +44,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
           <li key={item}>
             <button 
               className={currentPage === item.toLowerCase() ? 'active' : ''}
-              onClick={() => setCurrentPage(item.toLowerCase())}
+              onClick={() => handleNavClick(item.toLowerCase())}
             >
               {item}
             </button>

@@ -33,7 +33,7 @@ const Illustration = () => {
             <span className="bold">medium:</span> Ink & Paper
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 12.29.2023
+            <span className="bold">DATE:</span> 12.13.2023
           </p>
         </div>
 

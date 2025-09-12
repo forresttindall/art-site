@@ -70,7 +70,26 @@ const Projects = () => {
           </p>
         </div>
 
-
+        <div className='project'>
+          <div className="featured-image">
+            <img src="/images/medium-tardigrade.JPG" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> BIOTA
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Gaining a little perspective on a big universe.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Digital Microscopy
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 6.23.2023 - 9.31.2023
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651
+          </p>
+        </div>
 
 
       </div>
