@@ -32,7 +32,7 @@ const Projects = () => {
 
         <div className='project'>
           <div className="featured-image">
-            <img src="/images/_DSC1507.jpg" alt="Featured artwork" />
+            <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/paperwork" className="project-link">Paperwork</Link>
