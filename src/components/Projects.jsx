@@ -84,7 +84,7 @@ const Projects = () => {
             <span className="bold">medium:</span> Digital Microscopy
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 6.23.2023 - 9.31.2023
+            <span className="bold">DATE:</span> 6.23.2023 - 9.31.2024
           </p>
           <p className="mono-text">
             <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651
