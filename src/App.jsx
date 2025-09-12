@@ -1,55 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Homepage from './components/Homepage';
 import Photography from './components/Photography';
 import Writing from './components/Writing';
 import Illustration from './components/Illustration';
 import Projects from './components/Projects';
-import Biography from './components/Biography';
 import Contact from './components/Contact';
+import Paperwork from './components/Projects/Paperwork';
+import Biota from './components/Projects/Biota';
+import GPH from './components/Projects/GPH';
+import './App.css';
 
-export default function App() {
-  const [currentPage, setCurrentPage] = useState('home');
+// Component to handle scroll to top on route change
+function ScrollToTop() {
+  const { pathname } = useLocation();
 
-  // Scroll to top whenever the page changes
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
-  }, [currentPage]);
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'home':
-        return <Homepage />;
-      case 'projects':
-        return <Projects />;
-      case 'photography':
-        return <Photography />;
-      case 'writing':
-        return <Writing />;
-      case 'illustration':
-        return <Illustration />;
-      case 'biography':
-        return <Biography />;
-      case 'contact':
-        return <Contact />;
-      default:
-        return <Homepage />;
-    }
-  };
+  return null;
+}
 
+function App() {
   return (
-    <div className="app">
-      <div className="app-container">
-        <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
-        <main className="main-content">
-          {renderPage()}
-        </main>
+    <Router>
+      <div className="app">
+        <ScrollToTop />
+        <Navigation />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/photography" element={<Photography />} />
+            <Route path="/writing" element={<Writing />} />
+            <Route path="/illustration" element={<Illustration />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/paperwork" element={<Paperwork />} />
+            <Route path="/biota" element={<Biota />} />
+            <Route path="/gph" element={<GPH />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
+
+export default App;

@@ -14,7 +14,7 @@ const Photography = () => {
     '_DSC1385.jpg',
     '16.jpg',
     '17.jpg',
-    '18.jpg',
+    '000041580027.jpg',
     '19.jpg',
     '20.jpg',
     '_DSC1298-3.jpg',

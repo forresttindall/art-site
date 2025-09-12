@@ -29,8 +29,13 @@ h1 {
 }
 
 a {
-  color: red;
+  color: black;
   text-decoration: none;
+}
+
+.links {
+  color: red;
+  text-decoration: underline;
 }
 
 .bold {
@@ -70,10 +75,13 @@ a {
   gap: 30px;
   text-align: left;
   align-items: flex-start;
+  color: black !important;
 }
 
 .nav-links li {
   text-align: left;
+    font-weight: 600 !important;
+  color: black !important;
 }
 
 .nav-links button {
@@ -85,7 +93,8 @@ a {
   cursor: pointer;
   text-decoration: none;
   transition: opacity 0.3s ease;
-  font-weight: 600;
+  font-weight: 600 !important;
+  color: black !important;
   text-transform: uppercase;
   text-align: left;
   display: block;
@@ -340,6 +349,23 @@ a {
   .mono-text {
     font-size: 9pt;
   }
+}
+
+/* Project link styling */
+.project-link {
+  color: black;
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
+
+.project-link:hover {
+  opacity: 0.7;
+}
+
+/* Active navigation link styling */
+.nav-links a.active {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .spacer {

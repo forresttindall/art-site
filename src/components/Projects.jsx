@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -6,15 +7,38 @@ const Projects = () => {
       <div className="homepage-content">
         <h1>Projects</h1>
         
+
+                  <div className='project'>
+          <div className="featured-image">
+            <img src="/images/_DSC1513.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/gph" className="project-link">General Purpose Human</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Cultivating a polymath spirit.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Mixed Media
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 9.12.2025 - 
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
+
         <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1507.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> Paperwork
+            <span className="bold">PROJECT:</span> <Link to="/paperwork" className="project-link">Paperwork</Link>
           </p>
           <p className="mono-text">
-            <span className="bold">Description:</span> Building the discipline of creation.
+            <span className="bold">Description:</span> Rebuilding the discipline of creation.
           </p>
           <p className="mono-text">
             <span className="bold">medium:</span> Mixed Media
@@ -27,26 +51,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className='project'>
-          <div className="featured-image">
-            <img src="/images/_DSC4443.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">PROJECT:</span> General Purpose Human
-          </p>
-          <p className="mono-text">
-            <span className="bold">Description:</span> Cultivating a polymath spirit.
-          </p>
-          <p className="mono-text">
-            <span className="bold">medium:</span> Mixed Media
-          </p>
-          <p className="mono-text">
-            <span className="bold">DATE:</span> 9.10.2025 - 
-          </p>
-          <p className="mono-text">
-            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
-          </p>
-        </div>
+
 
 
         <div className='project'>
@@ -54,7 +59,7 @@ const Projects = () => {
             <img src="/images/1.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> "Mountain" "Home"
+            <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> Capturing the dishonesty of a flat alien town.
@@ -70,12 +75,15 @@ const Projects = () => {
           </p>
         </div>
 
+      
+
+
         <div className='project'>
           <div className="featured-image">
             <img src="/images/medium-tardigrade.JPG" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> BIOTA
+            <span className="bold">PROJECT:</span> <Link to="/Biota" className="project-link">Biota</Link>
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> Gaining a little perspective on a big universe.

@@ -1,55 +1,102 @@
 import React, { useState } from 'react';
-import '../App.css';
+import { Link, useLocation } from 'react-router-dom';
 
-const Navigation = ({ currentPage, setCurrentPage }) => {
+const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const navItems = ['PROJECTS', 'PHOTOGRAPHY', 'WRITING', 'ILLUSTRATION', 'BIOGRAPHY', 'CONTACT'];
+  const location = useLocation();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const handleNavClick = (page) => {
-    setCurrentPage(page);
-    setIsMobileMenuOpen(false); // Close mobile menu when item is clicked
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
   };
+
+  const isActive = (path) => location.pathname === path;
 
   return (
     <nav className="navigation">
-      <div className="logo" onClick={() => handleNavClick('home')} style={{ cursor: 'pointer' }}>
-        <img src="/images/logo.png" alt="Logo" />
+      <div className="logo">
+        <Link to="/" onClick={closeMobileMenu}>
+          <img src="/images/logo.png" alt="Logo" />
+        </Link>
       </div>
       
-      {/* Hamburger Menu Button */}
       <button 
         className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`}
         onClick={toggleMobileMenu}
-        aria-label="Toggle navigation menu"
+        aria-label="Toggle menu"
       >
         <span></span>
         <span></span>
         <span></span>
       </button>
 
-      <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-        <li>
-          <button 
-            className={currentPage === 'home' ? 'active' : ''}
-            onClick={() => handleNavClick('home')}
+
+     <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+
+           <li>
+          <Link 
+            to="/" 
+            className={isActive('/') ? 'active' : ''}
+            onClick={closeMobileMenu}
           >
-            HOME
-          </button>
+            Home
+          </Link>
         </li>
-        {navItems.map((item) => (
-          <li key={item}>
-            <button 
-              className={currentPage === item.toLowerCase() ? 'active' : ''}
-              onClick={() => handleNavClick(item.toLowerCase())}
-            >
-              {item}
-            </button>
-          </li>
-        ))}
+
+
+
+           <li>
+          <Link 
+            to="/projects" 
+            className={isActive('/projects') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Projects
+          </Link>
+        </li>
+
+           <li>
+          <Link 
+            to="/photography" 
+            className={isActive('/photography') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Photography
+          </Link>
+        </li>
+
+        <li>
+          <Link 
+            to="/writing" 
+            className={isActive('/writing') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Writing
+          </Link>
+        </li>
+        <li>
+          <Link 
+            to="/illustration" 
+            className={isActive('/illustration') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Illustration
+          </Link>
+        </li>
+     
+     
+        <li>
+          <Link 
+            to="/contact" 
+            className={isActive('/contact') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
     </nav>
   );
