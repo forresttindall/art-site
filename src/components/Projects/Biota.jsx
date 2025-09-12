@@ -9,7 +9,7 @@ const Biota = () => {
     'rotifer-life-stages-2.jpg',
     'nematode-vertical-1.jpg',
     'copepods-1.jpg',
-    '_DSC1510.jpg', // Use the JPG version from public/images
+    'tardigrades-quad.JPG',
   ];
 
   return (

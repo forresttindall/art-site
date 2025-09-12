@@ -100,6 +100,29 @@ const Projects = () => {
         </div>
 
 
+        <div className='project'>
+          <div className="featured-image">
+            <img src="/images/_DSC4434 2.JPG" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/TindallKnives" className="project-link">Tindall Knives</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Master Knifemaker
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Digital Microscopy
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 6.23.2023 - 9.31.2024
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651
+          </p>
+        </div>
+
+
+
       </div>
     </div>
   );
