@@ -111,7 +111,7 @@ const Projects = () => {
             <span className="bold">Description:</span> Master Knifemaker
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> Digital Microscopy
+            <span className="bold">medium:</span> Steel, Wood, Sweat, Blood
           </p>
           <p className="mono-text">
             <span className="bold">DATE:</span> 6.23.2023 - 9.31.2024
