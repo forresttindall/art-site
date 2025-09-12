@@ -6,7 +6,9 @@ const Biography = () => {
       <h1>Biography</h1>
       
       <div className="featured-image2">
+        <div className="biography-image">
         <img src="/images/IMG_4766.jpg" alt="Biography photo" />
+        </div>
       </div>
       
 <p className="mono-text">
