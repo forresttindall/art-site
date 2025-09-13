@@ -14,7 +14,7 @@ const Paperwork = () => {
       <h1>Paperwork</h1>
       <div>
            <p className="mono-text">
-            <span className="bold">Description:</span> Rebuilding the discipline of creation.
+            <span className="bold">Description:</span> Rebuilding the discipline of creation. Paperwork is a daily practice of creation, where the only rule is to finish.
           </p>
           <p className="mono-text">
             <span className="bold">medium:</span> Mixed Media
