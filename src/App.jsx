@@ -11,6 +11,8 @@ import Paperwork from './components/Projects/Paperwork';
 import Biota from './components/Projects/Biota';
 import GPH from './components/Projects/GPH';
 import TindallKnives from './components/Projects/TindallKnives';
+import SiliconMountain from './components/Projects/SiliconMountain';
+import Biography from './components/Biography';
 import './App.css';
 
 // Component to handle scroll to top on route change
@@ -37,7 +39,8 @@ function App() {
             <Route path="/photography" element={<Photography />} />
             <Route path="/writing" element={<Writing />} />
             <Route path="/illustration" element={<Illustration />} />
-            
+            <Route path="/biography" element={<Biography />} />
+            <Route path="/siliconmountain" element={<SiliconMountain />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/paperwork" element={<Paperwork />} />
             <Route path="/biota" element={<Biota />} />

@@ -40,7 +40,7 @@ const Projects = () => {
             <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
           </p>
           <p className="mono-text">
-            <span className="bold">Description:</span> Capturing the dishonesty of a flat alien town.
+            <span className="bold">Description:</span> Capturing the dishonest nomenclature of a flat alien town.
           </p>
           <p className="mono-text">
             <span className="bold">medium:</span> 35mm Film
@@ -80,7 +80,26 @@ const Projects = () => {
 
 
 
-      
+          <div className='project'>
+          <div className="featured-image">
+            <img src="/images/_DSC9844.JPG" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/SiliconMountain" className="project-link">Silicon Mountain</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> The art and science of the computer
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Silicon, Gold, JavaScript
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 8.18.2023 - 9.11.25
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651
+          </p>
+        </div>
 
 
         <div className='project'>
