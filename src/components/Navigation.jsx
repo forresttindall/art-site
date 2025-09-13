@@ -48,15 +48,7 @@ const Navigation = () => {
 
 
 
-           <li>
-          <Link 
-            to="/projects" 
-            className={isActive('/projects') ? 'active' : ''}
-            onClick={closeMobileMenu}
-          >
-            Projects
-          </Link>
-        </li>
+  
 
            <li>
           <Link 

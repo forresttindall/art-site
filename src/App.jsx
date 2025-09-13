@@ -32,11 +32,12 @@ function App() {
         <Navigation />
         <div className="main-content">
           <Routes>
-            <Route path="/" element={<Homepage />} />
+            <Route path="/" element={<Projects />} />
+          
             <Route path="/photography" element={<Photography />} />
             <Route path="/writing" element={<Writing />} />
             <Route path="/illustration" element={<Illustration />} />
-            <Route path="/projects" element={<Projects />} />
+            
             <Route path="/contact" element={<Contact />} />
             <Route path="/paperwork" element={<Paperwork />} />
             <Route path="/biota" element={<Biota />} />
