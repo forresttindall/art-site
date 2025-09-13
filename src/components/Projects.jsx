@@ -82,7 +82,7 @@ const Projects = () => {
 
           <div className='project'>
           <div className="featured-image">
-            <img src="/images/_DSC9844.JPG" alt="Featured artwork" />
+            <img src="/images/clearfeed.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/SiliconMountain" className="project-link">Silicon Mountain</Link>
