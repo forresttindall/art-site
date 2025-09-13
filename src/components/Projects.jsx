@@ -53,7 +53,7 @@ const Projects = () => {
           </p>
         </div>
 
-        
+
 
         <div className='project'>
           <div className="featured-image">
@@ -113,7 +113,7 @@ const Projects = () => {
             <span className="bold">PROJECT:</span> <Link to="/TindallKnives" className="project-link">Tindall Knives</Link>
           </p>
           <p className="mono-text">
-            <span className="bold">Description:</span> Master Knifemaker
+            <span className="bold">Description:</span> Master Knifemaking
           </p>
           <p className="mono-text">
             <span className="bold">medium:</span> Steel, Wood, Sweat, Blood
