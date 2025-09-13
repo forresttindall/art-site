@@ -30,6 +30,31 @@ const Projects = () => {
         </div>
 
 
+
+
+        <div className='project'>
+          <div className="featured-image">
+            <img src="/images/_DSC1439.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Capturing the dishonesty of a flat alien town.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> 35mm Film
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 6.22.2025 - 
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
+        
+
         <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
@@ -54,26 +79,6 @@ const Projects = () => {
 
 
 
-        <div className='project'>
-          <div className="featured-image">
-            <img src="/images/1.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
-          </p>
-          <p className="mono-text">
-            <span className="bold">Description:</span> Capturing the dishonesty of a flat alien town.
-          </p>
-          <p className="mono-text">
-            <span className="bold">medium:</span> 35mm Film
-          </p>
-          <p className="mono-text">
-            <span className="bold">DATE:</span> 6.22.2025 - 
-          </p>
-          <p className="mono-text">
-            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
-          </p>
-        </div>
 
       
 
