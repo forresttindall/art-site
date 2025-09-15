@@ -13,7 +13,7 @@ const Projects = () => {
             <img src="/images/_DSC1513.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> {/*<Link to="/Kraftwork" className="project-link">*/}Kraftwork{/*</Link>*/}
+            <span className="bold">PROJECT:</span> <Link to="/Kraftwork" className="project-link">Kraftwork</Link>
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> Reforging the spirit of the craftsman.
