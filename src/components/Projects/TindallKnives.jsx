@@ -17,11 +17,11 @@ const TindallKnives = () => {
     <div className="page-content">
       <h1>Tindall Knives</h1>
       <p className="mono-text">
-        <span className="bold">Description:</span> Living as a master knifemaker.
+        <span className="bold">Description:</span> To master the art of knifemaking.
       </p>
       <br></br>
       <p className="mono-text">
-        J F Tindall Spent the better part of a decade working as a bladesmith. Launching Tindall Knives in 2013. Tindall quickly became a viral sensation shortly after. He released a limited series of knives dubbed the Summit Knife with Best Made Co. in NYC in 2017 which sold out instantly.best
+        J F Tindall Spent the better part of a decade working as a bladesmith. Launching Tindall Knives in 2013. Tindall quickly became a viral sensation shortly after. He released a limited series of knives dubbed the Summit Knife with Best Made Co. in NYC in 2017 which sold out instantly. At his height Tindall Knives had 20,000 followers on Instagram and was booked 3 years ahead.
       </p>
       <br></br>
       <p className="mono-text">

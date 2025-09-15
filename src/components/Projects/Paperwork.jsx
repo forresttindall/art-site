@@ -5,7 +5,8 @@ const Paperwork = () => {
   const images = [
     '_DSC1507.JPG',
     '_DSC1503.JPG',
-    'IMG_1563.jpg'
+    'IMG_1563.jpg',
+    'IMG_1585.jpg',
 
   ];
 

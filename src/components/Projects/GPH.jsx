@@ -6,7 +6,7 @@ const GPH = () => {
       <div>
         <h1>General Purpose Human</h1>
         <div className="featured-image">
-          <img src="/images/_DSC1513.jpg" alt="Featured artwork" />
+          <img src="/images/IMG_3476 2.jpg" alt="Featured artwork" />
         </div>
         <p className="mono-text">
           <span className="bold">Description:</span> Cultivating a polymath spirit.

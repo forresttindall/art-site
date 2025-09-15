@@ -8,9 +8,30 @@ const Projects = () => {
         <h1>Projects</h1>
         
 
-                  <div className='project'>
+                      <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1513.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> {/*<Link to="/Kraftwork" className="project-link">*/}Kraftwork{/*</Link>*/}
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Reforging the spirit of the craftsman.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Mixed Media
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 9.14.2025 - 
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
+                  <div className='project'>
+          <div className="featured-image">
+            <img src="/images/IMG_3476 2.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/gph" className="project-link">General Purpose Human</Link>
@@ -40,7 +61,7 @@ const Projects = () => {
             <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
           </p>
           <p className="mono-text">
-            <span className="bold">Description:</span> Capturing the dishonest nomenclature of a flat alien town.
+            <span className="bold">Description:</span> Finding home in a flat alien town.
           </p>
           <p className="mono-text">
             <span className="bold">medium:</span> 35mm Film
@@ -138,7 +159,7 @@ const Projects = () => {
             <span className="bold">medium:</span> Steel, Wood, Sweat, Blood
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 6.23.2023 - 9.31.2024
+            <span className="bold">DATE:</span> 11.13.2013 - 9.31.2024
           </p>
           <p className="mono-text">
             <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651

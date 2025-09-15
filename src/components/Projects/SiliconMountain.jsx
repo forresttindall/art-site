@@ -40,7 +40,7 @@ const SiliconMountain = () => {
             <span className="bold">Description:</span> Quantum random enhanced file encryption.
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> Mixed Media
+            <span className="bold">medium:</span> Software
           </p>
           <p className="mono-text">
             <span className="bold">DATE:</span> 1.10.2025 

@@ -12,7 +12,7 @@ const Biography = () => {
       </div>
       
 <p className="mono-text">
-  J F Tindall is a general purpose human born in Boise, Idaho, and raised in the expansive landscapes of the American West. He began making art at an early age, first through drawing and writing, then discovering film photography at the age of 13. His work explores the intersection of place, identity, and the stories we tell ourselves about belonging. Through photography, writing, illustration, and mixed media, he documents the quiet contradictions of contemporary life, the spaces between what we call things and what they actually are.
+  J F Tindall is a multifaceted human born in Boise, Idaho USA, Earth and raised in the expansive landscapes of the American West. He began making art at an early age, first through drawing and writing, then discovering film photography at the age of 13. His work explores identity, society, philosophy and the stories we tell ourselves about belonging. Through photography, writing, illustration, and mixed media, he documents the quiet contradictions of contemporary life, the spaces between what we call things and what they actually are.
 </p>
 <br />
 <p className="mono-text">
@@ -24,11 +24,11 @@ const Biography = () => {
 </p>
 <br />
 <p className="mono-text">
-  Currently based in Mountain Home, Idaho, he continues to investigate the relationship between landscape and language, using various media to question how we construct meaning from the places we inhabit. His work has been featured in regional exhibitions and global publications, always seeking to bridge the distance between the personal and the universal.
+  Currently based in Mountain Home, Idaho, he continues to investigate the relationship between landscape and language, using various media to question how we construct meaning from life. His work has been featured in regional exhibitions and global publications, always seeking to bridge the distance between the personal and the universal.
 </p>
 <br />
 <p className="mono-text">
-  When not creating, Tindall can be found wandering the high desert, collecting stories and coordinates, building the discipline of creation one frame, one word, one moment at a time.
+  When not creating, Tindall can be found wandering the west, collecting stories and coordinates, building the discipline of creation one frame, one word, one moment at a time.
 </p>
 <br />
       </div>
