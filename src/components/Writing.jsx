@@ -4,15 +4,15 @@ const Writing = () => {
   return (
     <div className="page-content">
       <h1>Writing</h1>
-      
-    <br></br>
-    <br></br>
-    <h1>A Love Letter To The Snake River</h1>
+
      <div className="featured-image">
         <div className="writing-image">
         <img src="/images/_DSC1574.jpg" alt="Biography photo" />
         </div>
       </div>
+            <p className="mono-text">
+            <span className="bold">PROJECT:</span> A Love Letter To The Snake River
+          </p>
          <p className="mono-text">
             <span className="bold">DATE:</span> 9.17.2025 
           </p>
