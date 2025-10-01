@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SiliconMountain = () => {
+const ComputerScience = () => {
   return (
     <div className="homepage">
       <div className="homepage-content">
-        <h1>Silicon Mountain</h1>
+        <h1>Computer Science</h1>
         
 
                   <div className='project'>
@@ -56,4 +56,4 @@ const SiliconMountain = () => {
   );
 };
 
-export default SiliconMountain;
+export default ComputerScience;

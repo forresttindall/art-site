@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Navigation from './components/Navigation';
 import Homepage from './components/Homepage';
 import Photography from './components/Photography';
-import Writing from './components/Writing';
+import Blog from './components/Blog';
 import Illustration from './components/Illustration';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -11,9 +11,9 @@ import Paperwork from './components/Projects/Paperwork';
 import Biota from './components/Projects/Biota';
 import GPH from './components/Projects/GPH';
 import TindallKnives from './components/Projects/TindallKnives';
-import SiliconMountain from './components/Projects/SiliconMountain';
+import ComputerScience from './components/Projects/ComputerScience';
 import Biography from './components/Biography';
-import Kraftwork from './components/Projects/Kraftwork';
+import Craftwork from './components/Projects/Craftwork';
 import './App.css';
 
 // Component to handle scroll to top on route change
@@ -38,16 +38,16 @@ function App() {
             <Route path="/" element={<Projects />} />
           
             <Route path="/photography" element={<Photography />} />
-            <Route path="/writing" element={<Writing />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/illustration" element={<Illustration />} />
             <Route path="/biography" element={<Biography />} />
-            <Route path="/siliconmountain" element={<SiliconMountain />} />
+            <Route path="/computerscience" element={<ComputerScience />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/paperwork" element={<Paperwork />} />
             <Route path="/biota" element={<Biota />} />
             <Route path="/gph" element={<GPH />} />
             <Route path="/tindallknives" element={<TindallKnives />} />
-            <Route path="/kraftwork" element={<Kraftwork />} />
+            <Route path="/craftwork" element={<Craftwork />} />
           </Routes>
         </div>
       </div>

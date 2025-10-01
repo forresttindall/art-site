@@ -8,12 +8,37 @@ const Projects = () => {
         <h1>Projects</h1>
         
 
+
+
+          <div className='project'>
+          <div className="featured-image">
+            <img src="/images/IMG_1653.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Finding home in a flat alien town.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> 35mm Film
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 6.22.2025 - Ongoing
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
+
+
                       <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1513.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/Kraftwork" className="project-link">Kraftwork</Link>
+            <span className="bold">PROJECT:</span> <Link to="/Craftwork" className="project-link">Craftwork</Link>
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> Reforging the spirit of the craftsman.
@@ -22,13 +47,14 @@ const Projects = () => {
             <span className="bold">medium:</span> Mixed Media
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 9.14.2025 - 
+            <span className="bold">DATE:</span> 9.14.2025 - Ongoing
           </p>
           <p className="mono-text">
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
         </div>
 
+{/* }
                   <div className='project'>
           <div className="featured-image">
             <img src="/images/IMG_3476 2.jpg" alt="Featured artwork" />
@@ -49,30 +75,11 @@ const Projects = () => {
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
         </div>
+*/}
 
 
 
-
-        <div className='project'>
-          <div className="featured-image">
-            <img src="/images/_DSC1439.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
-          </p>
-          <p className="mono-text">
-            <span className="bold">Description:</span> Finding home in a flat alien town.
-          </p>
-          <p className="mono-text">
-            <span className="bold">medium:</span> 35mm Film
-          </p>
-          <p className="mono-text">
-            <span className="bold">DATE:</span> 6.22.2025 - 
-          </p>
-          <p className="mono-text">
-            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
-          </p>
-        </div>
+      
 
 
 
@@ -90,7 +97,7 @@ const Projects = () => {
             <span className="bold">medium:</span> Mixed Media
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 9.11.2025 - 
+            <span className="bold">DATE:</span> 9.11.2025 - Ongoing
           </p>
           <p className="mono-text">
             <span className="bold">Location:</span> 43.130958950600046, -115.69111856513878
@@ -106,7 +113,7 @@ const Projects = () => {
             <img src="/images/clearfeed.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/SiliconMountain" className="project-link">Silicon Mountain</Link>
+            <span className="bold">PROJECT:</span> <Link to="/ComputerScience" className="project-link">Computer Science</Link>
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> The art and science of the computer
@@ -115,7 +122,7 @@ const Projects = () => {
             <span className="bold">medium:</span> Silicon, Gold, JavaScript
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 8.18.2023 - 9.11.25
+            <span className="bold">DATE:</span> 8.18.2023 - Ongoing
           </p>
           <p className="mono-text">
             <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Kraftwork = () => {
+const Craftwork = () => {
   return (
     <div className="homepage">
       <div className="homepage-content">
-        <h1>Kraftwork</h1>
+        <h1>Craftwork</h1>
         
 
                       <div className='project'>
@@ -56,4 +56,4 @@ const Kraftwork = () => {
   );
 };
 
-export default Kraftwork;
+export default Craftwork;

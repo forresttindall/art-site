@@ -19,7 +19,7 @@ const Navigation = () => {
     <nav className="navigation">
       <div className="logo">
         <Link to="/" onClick={closeMobileMenu}>
-          <img src="/images/logo.png" alt="Logo" />
+          <img src="/images/redx.png" alt="Logo" />
         </Link>
       </div>
       
@@ -60,15 +60,7 @@ const Navigation = () => {
           </Link>
         </li>
 
-        <li>
-          <Link 
-            to="/writing" 
-            className={isActive('/writing') ? 'active' : ''}
-            onClick={closeMobileMenu}
-          >
-            Writing
-          </Link>
-        </li>
+    
         <li>
           <Link 
             to="/illustration" 
@@ -80,6 +72,17 @@ const Navigation = () => {
         </li>
      
      
+         <li>
+          <Link 
+            to="/blog" 
+            className={isActive('/blog') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Blog
+          </Link>
+        </li>
+
+
           <li>
           <Link 
             to="/Biography" 
