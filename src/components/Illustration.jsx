@@ -6,6 +6,23 @@ const Illustration = () => {
       <div className="homepage-content">
         <h1>Illustration</h1>
         
+
+           <div className='project'>
+          <div className="featured-image">
+            <img src="/images/cult-of-personality.JPG" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Title:</span> Cult Of Personality
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Digital
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 7.30.2023
+          </p>
+        </div>
+
+
         <div className='project'>
           <div className="featured-image">
             <img src="/images/beer-3.jpg" alt="Featured artwork" />
@@ -19,7 +36,6 @@ const Illustration = () => {
           <p className="mono-text">
             <span className="bold">DATE:</span> 12.29.2023
           </p>
-     
         </div>
 
         <div className='project'>
@@ -37,6 +53,20 @@ const Illustration = () => {
           </p>
         </div>
 
+  <div className='project'>
+          <div className="featured-image">
+            <img src="/images/mushroom.jpg" alt="Featured artwork" />
+          </div>
+   <p className="mono-text">
+            <span className="bold">Title:</span> Morchella esculenta
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Ink & Paper
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 11.26.2023
+          </p>
+        </div>
 
         <div className='project'>
           <div className="featured-image">
