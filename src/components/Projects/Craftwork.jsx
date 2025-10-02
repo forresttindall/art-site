@@ -7,28 +7,28 @@ const Craftwork = () => {
       <div className="homepage-content">
         <h1>Craftwork</h1>
         
-        {/* The Van Neistat Pencil 
+        
                   <div className='project'>
           <div className="featured-image">
-            <img src="/images/IMG_1864.jpg" alt="Featured artwork" />
+            <img src="/images/IMG_1872.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> The Van Neistat Pencil
+            <span className="bold">PROJECT:</span> Film Case
           </p>
           <p className="mono-text">
-            <span className="bold">Description:</span> Creating the perfect artists pencil.
+            <span className="bold">Description:</span> Designing and 3D printing a 3 roll pocket film case
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> Pentel P209, Silicon Tape, Hi-polymer Eraser
+            <span className="bold">medium:</span> PETG
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 9.12.2025 
+            <span className="bold">DATE:</span> 10.1.2025 
           </p>
           <p className="mono-text">
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
         </div>
-*/}
+
 
                       <div className='project'>
           <div className="featured-image">
