@@ -7,6 +7,27 @@ const Craftwork = () => {
       <div className="homepage-content">
         <h1>Craftwork</h1>
         
+                  <div className='project'>
+          <div className="featured-image">
+            <img src="/images/IMG_1864.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> The Van Neistat Pencil
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Creating the perfect artists pencil.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Pentel P209, Silicon Tape, Hi-polymer Eraser
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 9.12.2025 
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
 
                       <div className='project'>
           <div className="featured-image">
