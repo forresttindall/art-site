@@ -7,6 +7,7 @@ const Craftwork = () => {
       <div className="homepage-content">
         <h1>Craftwork</h1>
         
+        {/* The Van Neistat Pencil 
                   <div className='project'>
           <div className="featured-image">
             <img src="/images/IMG_1864.jpg" alt="Featured artwork" />
@@ -27,7 +28,7 @@ const Craftwork = () => {
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
         </div>
-
+*/}
 
                       <div className='project'>
           <div className="featured-image">
