@@ -62,7 +62,7 @@ const Craftwork = () => {
             <span className="bold">Description:</span> LoRa radio cellphone texting device.
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> Heltec V3, wire, switch, battery, PLA.
+            <span className="bold">medium:</span> Heltec V3, antenna, wire, switch, battery, PLA, solder
           </p>
           <p className="mono-text">
             <span className="bold">DATE:</span> 10.26.2024
