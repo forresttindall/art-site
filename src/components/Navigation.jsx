@@ -19,7 +19,7 @@ const Navigation = () => {
     <nav className="navigation">
       <div className="logo">
         <Link to="/" onClick={closeMobileMenu}>
-          <img src="/images/logo.png" alt="Logo" />
+          <img src="/images/redx.png" alt="Logo" />
         </Link>
       </div>
       
