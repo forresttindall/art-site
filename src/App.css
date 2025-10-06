@@ -355,7 +355,8 @@ a {
 
 /* Project link styling */
 .project-link {
-  color: black;
+  color: red;
+  font-weight: bold;
   text-decoration: underline;
   transition: opacity 0.2s ease;
 }

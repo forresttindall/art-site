@@ -15,7 +15,7 @@ const Projects = () => {
             <img src="/images/IMG_1653.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/Photography" className="project-link">"Mountain" "Home"</Link>
+            <span className="bold">PROJECT:</span> <Link to="/MountainHome" className="project-link">"Mountain" "Home"</Link>
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> Finding home in a flat alien town.
