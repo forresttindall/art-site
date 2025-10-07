@@ -7,7 +7,7 @@ const Craftwork = () => {
       <div className="homepage-content">
         <h1>Craftwork</h1>
         
-        
+        {/*  
                   <div className='project'>
           <div className="featured-image">
             <img src="/images/IMG_1872.jpg" alt="Featured artwork" />
@@ -16,10 +16,10 @@ const Craftwork = () => {
             <span className="bold">PROJECT:</span> Film Case
           </p>
           <p className="mono-text">
-            <span className="bold">Description:</span> Designing and 3D printing a 3 roll pocket film case
+            <span className="bold">Description:</span> Designing and 3D printing a 3 roll pocket film case.
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> PETG
+            <span className="bold">medium:</span> PETG.
           </p>
           <p className="mono-text">
             <span className="bold">DATE:</span> 10.1.2025 
@@ -28,7 +28,7 @@ const Craftwork = () => {
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
         </div>
-
+*/}
 
                       <div className='project'>
           <div className="featured-image">
@@ -41,7 +41,7 @@ const Craftwork = () => {
             <span className="bold">Description:</span> Building a camera leash from scratch.
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> Parachute cord, micro cord, heatshrink tube
+            <span className="bold">medium:</span> Parachute cord, micro cord, heatshrink tube.
           </p>
           <p className="mono-text">
             <span className="bold">DATE:</span> 9.15.2025 
@@ -62,7 +62,7 @@ const Craftwork = () => {
             <span className="bold">Description:</span> LoRa radio cellphone texting device.
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> Heltec V3, antenna, wire, switch, battery, PLA, solder
+            <span className="bold">medium:</span> Heltec V3, antenna, wire, switch, battery, PLA, solder.
           </p>
           <p className="mono-text">
             <span className="bold">DATE:</span> 10.26.2024
