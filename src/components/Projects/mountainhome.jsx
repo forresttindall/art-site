@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import PhotoSwipeLightbox from 'photoswipe/lightbox';
-import 'photoswipe/style.css';
 
 const images = [
   { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
@@ -139,17 +137,7 @@ const MountainHome = () => {
       gallery.appendChild(figure);
     });
 
-    // Initialize PhotoSwipe
-    const lightbox = new PhotoSwipeLightbox({
-      gallery: '.masonry-grid',
-      children: '.masonry-item',
-      pswpModule: () => import('photoswipe')
-    });
-
-    lightbox.init();
-
     return () => {
-      lightbox.destroy();
       gallery.remove();
       document.head.removeChild(style);
     };
