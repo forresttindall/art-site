@@ -3,7 +3,7 @@ import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
 
 const images = [
-  { id: 23, src: 'IMG_1653.jpg', alt: 'Outdoor 23' },
+  { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
   { id: 11, src: '_DSC1571.jpg', alt: 'Outdoor 11' },
   
   { id: 2, src: '_DSC1298-3.jpg', alt: 'Outdoor 2' },

@@ -12,7 +12,7 @@ const Projects = () => {
 
           <div className='project'>
           <div className="featured-image">
-            <img src="/images/IMG_1653.jpg" alt="Featured artwork" />
+            <img src="/images/gasstation.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/MountainHome" className="project-link">"Mountain" "Home"</Link>
