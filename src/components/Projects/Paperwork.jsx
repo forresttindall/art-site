@@ -15,6 +15,7 @@ const Paperwork = () => {
     'IMG_1993.jpg',
     'IMG_2069.jpg',
     'IMG_2073.jpg',
+    'IMG_2082.jpg',
 
   ];
 
