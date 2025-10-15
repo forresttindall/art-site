@@ -23,10 +23,10 @@ const Illustration = () => {
         
     <div className='project'>
           <div className="featured-image">
-            <img src="/images/IMG_2203.PNG" alt="Featured artwork" />
+            <img src="/images/IMG_2202.PNG" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Title:</span> No Kings
+            <span className="bold">Title:</span> Visual Resistance
           </p>
           <p className="mono-text">
             <span className="bold">medium:</span> Digital
