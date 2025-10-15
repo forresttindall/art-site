@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Navigation from './components/Navigation';
 import Homepage from './components/Homepage';
 import Photography from './components/Photography';
-import Blog from './components/Blog';
+import Writing from './components/Writing';
 import Illustration from './components/Illustration';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -39,7 +39,7 @@ function App() {
             <Route path="/" element={<Projects />} />
           
             <Route path="/photography" element={<Photography />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/writing" element={<Writing />} />
             <Route path="/illustration" element={<Illustration />} />
             <Route path="/biography" element={<Biography />} />
             <Route path="/computerscience" element={<ComputerScience />} />

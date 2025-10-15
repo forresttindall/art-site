@@ -74,11 +74,11 @@ const Navigation = () => {
      
          <li>
           <Link 
-            to="/blog" 
-            className={isActive('/blog') ? 'active' : ''}
+            to="/writing" 
+            className={isActive('/writing') ? 'active' : ''}
             onClick={closeMobileMenu}
           >
-            Blog
+            Writing
           </Link>
         </li>
 
