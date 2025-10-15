@@ -7,7 +7,7 @@ const Biography = () => {
       
       <div className="featured-image2">
         <div className="biography-image">
-        <img src="/images/IMG_4766.jpg" alt="Biography photo" />
+        <img src="/images/IMG_2132.JPG" alt="Biography photo" />
         </div>
       </div>
       
