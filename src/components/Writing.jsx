@@ -3,7 +3,7 @@ import React from 'react';
 const Writing = () => {
   return (
     <div className="page-content">
-      <h1>Blog</h1>
+      <h1>Writing</h1>
 
 
 
