@@ -15,6 +15,7 @@ import ComputerScience from './components/Projects/ComputerScience';
 import Biography from './components/Biography';
 import Craftwork from './components/Projects/Craftwork';
 import MountainHome from './components/Projects/mountainhome';
+import Design from './components/Design';
 import './App.css';
 
 // Component to handle scroll to top on route change
@@ -50,6 +51,7 @@ function App() {
             <Route path="/tindallknives" element={<TindallKnives />} />
             <Route path="/craftwork" element={<Craftwork />} />
             <Route path="/mountainhome" element={<MountainHome />} />
+            <Route path="/design" element={<Design />} />
           </Routes>
         </div>
       </div>
