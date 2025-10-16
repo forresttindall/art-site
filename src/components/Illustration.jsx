@@ -6,20 +6,7 @@ const Illustration = () => {
       <div className="homepage-content">
         <h1>Illustration</h1>
 
-         <div className='project'>
-          <div className="featured-image">
-            <img src="/images/nokings2.PNG" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">Title:</span> No Kings No. 2
-          </p>
-          <p className="mono-text">
-            <span className="bold">medium:</span> Digital
-          </p>
-          <p className="mono-text">
-            <span className="bold">DATE:</span> 10.14.2025
-          </p>
-        </div>
+   
         
     <div className='project'>
           <div className="featured-image">
