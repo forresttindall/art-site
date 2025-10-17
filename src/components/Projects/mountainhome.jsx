@@ -38,7 +38,6 @@ const MountainHome = () => {
     const style = document.createElement('style');
     style.textContent = `
       body, html {
-        overflow-x: hidden;
         width: 100%;
         max-width: 100%;
       }
@@ -69,15 +68,15 @@ const MountainHome = () => {
         padding: 0;
       }
       
+      @media (max-width: 800px) {
+        .masonry-grid {
+          columns: 1;
+        }
+      }
+      
       @media (min-width: 1300px) {
         .masonry-grid {
           columns: 3;
-        }
-      }
-
-        @media (max-width: 800px) {
-        .masonry-grid {
-          columns: 1;
         }
       }
       
@@ -99,7 +98,6 @@ const MountainHome = () => {
       
       /* Override app container styles */
       .app {
-        overflow-x: hidden;
         width: 100%;
         max-width: 100%;
       }
@@ -112,12 +110,7 @@ const MountainHome = () => {
         overflow: hidden !important;
       }
       
-      /* Fix navbar overlap */
-      .navigation {
-        position: relative !important;
-        z-index: 1000 !important;
-      }
-      
+      /* Ensure main content doesn't overlap with sticky nav */
       .navigation + .main-content {
         margin-top: 0 !important;
       }
