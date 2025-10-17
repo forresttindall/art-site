@@ -9,7 +9,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: white;
+  background: black;
   font-family: 'Courier New', monospace;
   font-size: 11pt;
   line-height: 1.5;
@@ -19,6 +19,7 @@ html, body {
 
 p {
   font-weight: 500;
+  color:  #C2C2C2;
 }
 
 h1 {
@@ -26,10 +27,11 @@ h1 {
   font-size: 18pt;
   margin-bottom: 20px;
   font-weight: 600;
+  color: #C2C2C2;
 }
 
 a {
-  color: black;
+  color:  #959595;
   text-decoration: none;
 }
 
@@ -54,13 +56,13 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #333333;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: black;
   z-index: 100;
 }
 
@@ -77,13 +79,13 @@ a {
   gap: 30px;
   text-align: left;
   align-items: flex-start;
-  color: black !important;
+  color: white !important;
 }
 
 .nav-links li {
   text-align: left;
     font-weight: 600 !important;
-  color: black !important;
+  color: white !important;
 }
 
 .nav-links button {
@@ -91,12 +93,12 @@ a {
   border: none;
   font-family: 'Courier New', monospace;
   font-size: 11pt;
-  color: black;
+  color: white;
   cursor: pointer;
   text-decoration: none;
   transition: opacity 0.3s ease;
   font-weight: 600 !important;
-  color: black !important;
+  color: white !important;
   text-transform: uppercase;
   text-align: left;
   display: block;
@@ -122,7 +124,7 @@ a {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: #959595;
   margin: 3px 0;
   transition: 0.3s;
   display: block;
@@ -170,7 +172,7 @@ a {
   height: auto;
   width: auto;
   
-  border: 1px solid black;
+  border: 1px solid #333333;
   display: block;
   max-width: 470px;
 }
@@ -187,7 +189,7 @@ a {
   width: auto;
   border: 1px solid black;
   display: block;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .mono-text {
@@ -373,4 +375,10 @@ a {
 
 .spacer {
   padding-bottom: 40px;
+}
+
+
+.biography-image {
+  
+  height: auto;
 }
