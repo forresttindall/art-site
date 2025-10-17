@@ -17,22 +17,22 @@ const Navigation = () => {
 
   return (
     <nav className="navigation">
-      <div className="logo">
-        <Link to="/" onClick={closeMobileMenu}>
-          <img src="/images/logored.png" alt="Logo" />
-        </Link>
-      </div>
-      
-      <button 
-        className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`}
-        onClick={toggleMobileMenu}
-        aria-label="Toggle menu"
-      >
-        {isMobileMenuOpen ? '✕' : '☰'}
-      </button>
+      <div className="navigation-content">
+        <div className="logo">
+          <Link to="/" onClick={closeMobileMenu}>
+            <img src="/images/logored.png" alt="Logo" />
+          </Link>
+        </div>
+        
+        <button 
+          className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`}
+          onClick={toggleMobileMenu}
+          aria-label="Toggle menu"
+        >
+          {isMobileMenuOpen ? '✕' : '☰'}
+        </button>
 
-
-     <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+        <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
 
            <li>
           <Link 
@@ -112,7 +112,8 @@ const Navigation = () => {
             Contact
           </Link>
         </li>
-      </ul>
+        </ul>
+      </div>
     </nav>
   );
 };

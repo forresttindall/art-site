@@ -45,7 +45,6 @@ const Photography = () => {
     const style = document.createElement('style');
     style.textContent = `
       body, html {
-        overflow-x: hidden;
         width: 100%;
         max-width: 100%;
       }
@@ -106,7 +105,6 @@ const Photography = () => {
       
       /* Override app container styles */
       .app {
-        overflow-x: hidden;
         width: 100%;
         max-width: 100%;
       }
@@ -119,12 +117,7 @@ const Photography = () => {
         overflow: hidden !important;
       }
       
-      /* Fix navbar overlap */
-      .navigation {
-        position: relative !important;
-        z-index: 1000 !important;
-      }
-      
+      /* Ensure main content doesn't overlap with sticky nav */
       .navigation + .main-content {
         margin-top: 0 !important;
       }
