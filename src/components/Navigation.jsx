@@ -28,9 +28,7 @@ const Navigation = () => {
         onClick={toggleMobileMenu}
         aria-label="Toggle menu"
       >
-        <span></span>
-        <span></span>
-        <span></span>
+        {isMobileMenuOpen ? '✕' : '☰'}
       </button>
 
 
