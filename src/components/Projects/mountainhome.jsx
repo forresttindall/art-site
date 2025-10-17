@@ -74,6 +74,12 @@ const MountainHome = () => {
           columns: 3;
         }
       }
+
+        @media (max-width: 800px) {
+        .masonry-grid {
+          columns: 1;
+        }
+      }
       
       .masonry-item {
         break-inside: avoid;

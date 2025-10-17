@@ -76,6 +76,12 @@ const Photography = () => {
         padding: 0;
       }
       
+      @media (max-width: 800px) {
+        .masonry-grid {
+          columns: 1;
+        }
+      }
+      
       @media (min-width: 1300px) {
         .masonry-grid {
           columns: 3;

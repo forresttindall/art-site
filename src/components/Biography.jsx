@@ -25,7 +25,7 @@ const Biography = () => {
 
 <br />
 <p className="mono-text">
-  Currently based in Mountain Home, Idaho, his work has been focused on documenting the unique landscape of a former boom town. His work has been featured in regional exhibitions and global publications, always seeking to bridge the distance between the personal and the universal.
+    His work has been featured in regional exhibitions and global publications, always seeking to bridge the distance between the personal and the universal.
 </p>
 <br />
 
