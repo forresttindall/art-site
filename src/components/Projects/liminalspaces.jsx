@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
 const images = [
+    { id: 11, src: 'IMG_2272-2.jpg', alt: 'Outdoor 11' },
   { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
   
   { id: 22, src: 'vending.jpg', alt: 'Outdoor 22' },
@@ -8,7 +9,7 @@ const images = [
 
  
   { id: 12, src: 'porta.jpg', alt: 'Outdoor 12' },
-  { id: 11, src: 'IMG_2272-2.jpg', alt: 'Outdoor 11' },
+  
     { id: 20, src: 'sofabw.jpg', alt: 'Outdoor 20' },
 
 
