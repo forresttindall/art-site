@@ -11,7 +11,7 @@ const Biography = () => {
 
       <div className="featured-image2">
         <div className="biography-image">
-        <img src="/images/IMG_2094.JPG" alt="Biography photo" />
+        <img src="/images/IMG_2273-2.jpg" alt="Biography photo" />
         </div>
       </div>
       
@@ -20,7 +20,7 @@ const Biography = () => {
 </p>
 <br />
 <p className="mono-text">
-  In 2013, Tindall launched <em>Tindall Knives</em>, beginning his career as a knifemaker. This practice of shaping steel by hand eventually drew him deeper into solitude and craft, leading him north into the mountains, where he lived as a hermit knifemaker for 10 years. That period of retreat became a crucible for patience, discipline, and attention to detail, qualities that continue to inform his creative practice today.
+  In 2012, Tindall launched <em>Tindall Knives</em>, beginning his career as a knifemaker. This practice of shaping steel by hand eventually drew him deeper into solitude and craft, leading him north into the mountains, where he lived as a hermit knifemaker for 10 years. That period of retreat became a crucible for patience, discipline, and attention to detail, qualities that continue to inform his creative practice today.
 </p>
 
 <br />

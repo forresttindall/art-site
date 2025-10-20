@@ -64,17 +64,7 @@ const Design= () => {
 
 
 
-       <div className='project'>
-          <div className="featured-image">
-            <img src="/images/design/bugfinder3.0.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">Brand:</span> Bugfinder (App)
-          </p>
-          <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
-          </p>
-        </div>
+   
 
 
  
