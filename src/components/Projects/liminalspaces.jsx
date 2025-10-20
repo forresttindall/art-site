@@ -11,7 +11,7 @@ const images = [
   { id: 12, src: 'porta.jpg', alt: 'Outdoor 12' },
   
     { id: 20, src: 'sofabw.jpg', alt: 'Outdoor 20' },
-    { id: 13, src: 'DSC1392-2.jpg', alt: 'Outdoor 13' },
+    { id: 13, src: '_DSC1392-2.jpg', alt: 'Outdoor 13' },
 
 
 
