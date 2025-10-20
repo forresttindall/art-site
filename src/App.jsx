@@ -16,6 +16,7 @@ import Biography from './components/Biography';
 import Craftwork from './components/Projects/Craftwork';
 import MountainHome from './components/Projects/mountainhome';
 import Design from './components/Design';
+import LiminalSpaces from './components/Projects/liminalspaces';
 import './App.css';
 
 // Component to handle scroll to top on route change
@@ -52,6 +53,7 @@ function App() {
             <Route path="/craftwork" element={<Craftwork />} />
             <Route path="/mountainhome" element={<MountainHome />} />
             <Route path="/design" element={<Design />} />
+            <Route path="/liminalspaces" element={<LiminalSpaces />} />
           </Routes>
         </div>
       </div>

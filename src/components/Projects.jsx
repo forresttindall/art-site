@@ -33,6 +33,27 @@ const Projects = () => {
 
 
 
+          <div className='project'>
+          <div className="featured-image">
+            <img src="/images/IMG_2272-2.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/liminalspaces" className="project-link">Liminal Spaces</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> liminal /lĭm′ə-nəl/  adjective.  Intermediate between two states, conditions, or regions. 
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Photography
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 10.19.2025 - Ongoing
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
                       <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1513.jpg" alt="Featured artwork" />
@@ -82,7 +103,7 @@ const Projects = () => {
       
 
 
-
+{/*   
         <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
@@ -104,7 +125,7 @@ const Projects = () => {
           </p>
         </div>
 
-
+*/}
 
 
 
