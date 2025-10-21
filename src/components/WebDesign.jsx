@@ -7,6 +7,21 @@ const WebDesign= () => {
         <h1>Web Design</h1>
 
    
+
+
+   <div className='project'>
+          <div className="featured-image">
+            <img src="/images/creationbase.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> <a className='project-link'href='https://www.creationbase.io/'>Creationbase (agency)</a>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Brand identity creation, web design & development.
+          </p>
+        </div>
+
+        
         
     <div className='project'>
           <div className="featured-image">
@@ -22,17 +37,6 @@ const WebDesign= () => {
         </div>
 
 
-   <div className='project'>
-          <div className="featured-image">
-            <img src="/images/creationbase.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">Brand:</span> <a className='project-link'href='https://www.creationbase.io/'>Creationbase (agency)</a>
-          </p>
-          <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation, web design & development.
-          </p>
-        </div>
 
 
         <div className='project'>
