@@ -21,7 +21,7 @@ const WebDesign= () => {
           </p>
         </div>
 
-        
+         
         
     <div className='project'>
           <div className="featured-image">
