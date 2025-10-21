@@ -32,7 +32,7 @@ const Writing = () => {
       <br />
 
 
-   
+   {/* 
       <div className="featured-image">
         <div className="writing-image">
           <img src="/images/_DSC1574.jpg" alt="Biography photo" />
@@ -56,7 +56,7 @@ const Writing = () => {
       <br />
       <p>The Bruneau Canyon is patient in ways we cannot be. A chasm cut by a mighty river grain by grain, year after year, until stone gave way. To stand at its edge is to be reminded of humility, that our lives are short but still part of a larger rhythm. Out here the desert does not rush. It waits, quiet and enduring, holding a lesson as wide as the horizon itself.</p>
       <br />
-
+*/}
  
     </div>
   );
