@@ -15,8 +15,9 @@ import ComputerScience from './components/Projects/ComputerScience';
 import Biography from './components/Biography';
 import Craftwork from './components/Projects/Craftwork';
 import MountainHome from './components/Projects/mountainhome';
-import Design from './components/Design';
+import GraphicDesign from './components/GraphicDesign';
 import LiminalSpaces from './components/Projects/liminalspaces';
+import WebDesign from './components/WebDesign';
 import './App.css';
 
 // Component to handle scroll to top on route change
@@ -52,8 +53,9 @@ function App() {
             <Route path="/tindallknives" element={<TindallKnives />} />
             <Route path="/craftwork" element={<Craftwork />} />
             <Route path="/mountainhome" element={<MountainHome />} />
-            <Route path="/design" element={<Design />} />
+            <Route path="/graphicdesign" element={<GraphicDesign />} />
             <Route path="/liminalspaces" element={<LiminalSpaces />} />
+            <Route path="/webdesign" element={<WebDesign />} />
           </Routes>
         </div>
       </div>

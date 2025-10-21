@@ -46,7 +46,15 @@ const Navigation = () => {
 
 
 
-      
+         <li>
+          <Link 
+            to="/Biography" 
+            className={isActive('/Biography') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Biography
+          </Link>
+        </li>
 
 
 
@@ -63,11 +71,21 @@ const Navigation = () => {
 
      <li>
           <Link 
-            to="/design" 
-            className={isActive('/design') ? 'active' : ''}
+            to="/graphicdesign" 
+            className={isActive('/graphicdesign') ? 'active' : ''}
             onClick={closeMobileMenu}
           >
-            Design
+            Graphic Design
+          </Link>
+        </li>
+
+          <li>
+          <Link 
+            to="/webdesign" 
+            className={isActive('/webdesign') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Web Design
           </Link>
         </li>
     
@@ -93,15 +111,7 @@ const Navigation = () => {
         </li>
 
 
-          <li>
-          <Link 
-            to="/Biography" 
-            className={isActive('/Biography') ? 'active' : ''}
-            onClick={closeMobileMenu}
-          >
-            Biography
-          </Link>
-        </li>
+       
 
         <li>
           <Link 

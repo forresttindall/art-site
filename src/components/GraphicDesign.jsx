@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Design= () => {
+const GraphicDesign= () => {
   return (
     <div className="homepage">
       <div className="homepage-content">
-        <h1>Design</h1>
+        <h1>Graphic Design</h1>
 
    
         
     <div className='project'>
           <div className="featured-image">
-            <img src="/images/design/creationbasegradient.jpg" alt="Featured artwork" />
+            <img src="/images/dottrianglewhite.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">Brand:</span> Creationbase (agency)
@@ -75,4 +75,4 @@ const Design= () => {
   );
 };
 
-export default Design;
+export default GraphicDesign;
