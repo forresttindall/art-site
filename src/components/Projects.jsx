@@ -35,7 +35,7 @@ const Projects = () => {
 
           <div className='project'>
           <div className="featured-image">
-            <img src="/images/IMG_2272-2.jpg" alt="Featured artwork" />
+            <img src="/images/IMG_2272-3.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/liminalspaces" className="project-link">Liminal Spaces</Link>
