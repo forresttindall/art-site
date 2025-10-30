@@ -7,22 +7,23 @@ const Paperwork = () => {
     '_DSC1503.JPG',
     'IMG_1563.jpg',
     'IMG_1585.jpg',
-    'IMG_1616.jpg',
+    
     'IMG_1861.jpg',
-    'IMG_1862.jpg',
-    'IMG_1873.jpg',
+    
+    'IMG_1873.jpg', 
     'IMG_1896.jpg',
     'IMG_1993.jpg',
     'IMG_2069.jpg',
     'IMG_2073.jpg',
     'IMG_2082.jpg',
     'IMG_2221.jpg',
+    'IMG_2528.jpg',
 
   ];
 
   return (
     <div className="page-content">
-      <h1>Paperwork</h1>
+      <h1>PAPERWORK</h1>
       <div>
            <p className="mono-text">
             <span className="bold">Description:</span> Rebuilding the discipline of creation. Paperwork is a daily practice of creation, where the only rule is to finish.

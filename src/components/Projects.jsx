@@ -35,7 +35,7 @@ const Projects = () => {
 
           <div className='project'>
           <div className="featured-image">
-            <img src="/images/IMG_2272-3.jpg" alt="Featured artwork" />
+            <img src="/images/IMG_2272-2.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/liminalspaces" className="project-link">Liminal Spaces</Link>
@@ -53,6 +53,29 @@ const Projects = () => {
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
         </div>
+
+
+ <div className='project'>
+          <div className="featured-image">
+            <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/paperwork" className="project-link">PAPERWORK</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Rebuilding the discipline of creation.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Mixed Media
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 9.11.2025 - Ongoing
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130958950600046, -115.69111856513878
+          </p>
+        </div>
+
 
                       <div className='project'>
           <div className="featured-image">
@@ -103,30 +126,11 @@ const Projects = () => {
       
 
 
-{/*   
-        <div className='project'>
-          <div className="featured-image">
-            <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/paperwork" className="project-link">Paperwork</Link>
-          </p>
-          <p className="mono-text">
-            <span className="bold">Description:</span> Rebuilding the discipline of creation.
-          </p>
-          <p className="mono-text">
-            <span className="bold">medium:</span> Mixed Media
-          </p>
-          <p className="mono-text">
-            <span className="bold">DATE:</span> 9.11.2025 - Ongoing
-          </p>
-          <p className="mono-text">
-            <span className="bold">Location:</span> 43.130958950600046, -115.69111856513878
-          </p>
-        </div>
+ 
+       
 
 
-
+{/*  
 
 
           <div className='project'>
