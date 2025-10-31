@@ -54,7 +54,7 @@ const Projects = () => {
           </p>
         </div>
 
-
+{/*  
  <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
@@ -75,7 +75,7 @@ const Projects = () => {
             <span className="bold">Location:</span> 43.130958950600046, -115.69111856513878
           </p>
         </div>
-
+*/}
 
                       <div className='project'>
           <div className="featured-image">
