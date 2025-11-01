@@ -472,3 +472,7 @@ a {
   height: auto;
   width: auto;
 }
+
+.spacer-text {
+  padding-bottom: 35px;
+}
