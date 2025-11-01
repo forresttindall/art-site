@@ -67,6 +67,18 @@ const WebDesign= () => {
         </div>
 
 
+   <div className='project'>
+          <div className="featured-image">
+            <img src="/images/githubactivity.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Project:</span> Github Calendar Graph Component
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> UX/UI Design & Development
+          </p>
+       
+        </div>
 
    
 

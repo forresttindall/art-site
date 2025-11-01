@@ -7,6 +7,19 @@ const GraphicDesign= () => {
         <h1>Graphic Design</h1>
 
    
+
+     <div className='project'>
+          <div className="featured-image">
+            <img src="/images/lrk.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> Tindall Knives
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Brand identity creation and design
+          </p>
+        
+        </div>
         
     <div className='project'>
           <div className="featured-image">
@@ -21,18 +34,6 @@ const GraphicDesign= () => {
         
         </div>
 
-
-   <div className='project'>
-          <div className="featured-image">
-            <img src="/images/design/paradoxlabsgreensmaller.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">Brand:</span> Paradox Labs (Tech)
-          </p>
-          <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
-          </p>
-        </div>
 
 
         <div className='project'>
@@ -63,6 +64,18 @@ const GraphicDesign= () => {
         </div>
 
 
+
+   <div className='project'>
+          <div className="featured-image">
+            <img src="/images/design/paradoxlabsgreensmaller.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> Paradox Labs (Tech)
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Brand identity creation and design
+          </p>
+        </div>
 
    
 
