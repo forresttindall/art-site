@@ -88,7 +88,7 @@ const Biography = () => {
             <img src="/images/bestmade.PNG" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Publication:</span> Best Made NYC
+            <span className="bold">Publication:</span> Best Made Co. NYC
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 2017
