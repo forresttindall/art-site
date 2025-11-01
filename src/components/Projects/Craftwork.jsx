@@ -86,6 +86,31 @@ const Craftwork = () => {
         </div>
 
 
+
+               <div className='project'>
+          <div className="featured-image">
+            <img src="/images/fgjr.JPG" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> Scandinaian Axe
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Handforge a Scandinaian pattern axe, handcraft a leather mask.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> 5610 Steel, Hickory, Leather.
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 1.16.2024
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
+
+
+
       </div>
     
   );
