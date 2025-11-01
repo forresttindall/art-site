@@ -33,22 +33,29 @@ function ScrollToTop() {
   }, []);
 
   useEffect(() => {
-    // Scroll window to top
-    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
-
-    // Also scroll the main content container if it has its own scroll context
     const main = document.querySelector('.main-content');
-    if (main && typeof main.scrollTo === 'function') {
-      main.scrollTo({ top: 0, left: 0, behavior: 'auto' });
-    }
 
-    // Ensure after paint as well
-    requestAnimationFrame(() => {
+    const forceTop = () => {
+      // Force all known scroll roots to the very top
       window.scrollTo(0, 0);
-      if (main && typeof main.scrollTo === 'function') {
-        main.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      if (main) {
+        main.scrollTop = 0;
+        if (typeof main.scrollTo === 'function') {
+          main.scrollTo(0, 0);
+        }
       }
-    });
+    };
+
+    // Immediately
+    forceTop();
+    // After paint
+    requestAnimationFrame(forceTop);
+    // After microtask
+    setTimeout(forceTop, 0);
+    // After potential layout shifts (images/fonts)
+    setTimeout(forceTop, 60);
   }, [pathname]);
 
   return null;
