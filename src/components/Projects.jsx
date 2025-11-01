@@ -216,7 +216,7 @@ const Projects = () => {
             <span className="bold">medium:</span> Steel, Wood, Sweat, Blood
           </p>
           <p className="mono-text">
-            <span className="bold">DATE:</span> 11.13.2013 - 9.31.2024
+            <span className="bold">DATE:</span> 11.13.2012 - 9.31.2024
           </p>
           <p className="mono-text">
             <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651
