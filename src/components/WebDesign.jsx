@@ -5,15 +5,15 @@ const WebDesign = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="homepage">
-      <div className="homepage-content">
+    <div className="page-content">
+      <div className="">
         <h1>Web Design</h1>
 
    
 
 
    <div className='project'>
-          <div className="featured-image">
+          <div className="featured-image2">
             <img src="/images/creationbase.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
@@ -27,7 +27,7 @@ const WebDesign = () => {
          
         
     <div className='project'>
-          <div className="featured-image">
+          <div className="featured-image2">
             <img src="/images/arrowleaf.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
@@ -43,7 +43,7 @@ const WebDesign = () => {
 
 
         <div className='project'>
-          <div className="featured-image">
+          <div className="featured-image2">
             <img src="/images/clearfeed.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
@@ -57,7 +57,7 @@ const WebDesign = () => {
 
 
    <div className='project'>
-          <div className="featured-image">
+          <div className="featured-image2">
             <img src="/images/quantumkeep2.png" alt="Featured artwork" />
           </div>
           <p className="mono-text">
@@ -71,7 +71,7 @@ const WebDesign = () => {
 
 
    <div className='project'>
-          <div className="featured-image">
+          <div className="featured-image2">
             <img src="/images/githubactivity.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
