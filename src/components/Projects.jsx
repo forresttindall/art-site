@@ -77,6 +77,28 @@ const Projects = () => {
         </div>
 */}
 
+                   <div className='project'>
+          <div className="featured-image">
+            <img src="/images/branding.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">PROJECT:</span> <Link to="/GraphicDesign" className="project-link">Brand Design</Link>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Description:</span> Brand identity creation and design.
+          </p>
+          <p className="mono-text">
+            <span className="bold">medium:</span> Graphic Design
+          </p>
+          <p className="mono-text">
+            <span className="bold">DATE:</span> 11.13.2012 - Ongoing
+          </p>
+          <p className="mono-text">
+            <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
+          </p>
+        </div>
+
+
                       <div className='project'>
           <div className="featured-image">
             <img src="/images/_DSC1513.jpg" alt="Featured artwork" />
