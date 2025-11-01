@@ -42,6 +42,9 @@ const Biography = () => {
           <p className="mono-text">
             <span className="bold">Publication:</span> Popular Mechanics Magazine
           </p>
+           <p className="mono-text">
+            <span className="bold">Description:</span> Magazine Feature
+          </p>
           <p className="mono-text">
             <span className="bold">Date:</span> JULY/AUG 2017
           </p>
@@ -54,6 +57,9 @@ const Biography = () => {
           <p className="mono-text">
             <span className="bold">Publication:</span> Sun Valley Magazine
           </p>
+            <p className="mono-text">
+            <span className="bold">Description:</span> Magazine Feature
+          </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 9.23.2019
           </p>
@@ -64,7 +70,10 @@ const Biography = () => {
             <img src="/images/IMG_8359.JPG" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Publication:</span> Condor Knife And Tool Catalog Cover
+            <span className="bold">Publication:</span> Condor Knife And Tool
+          </p>
+            <p className="mono-text">
+            <span className="bold">Description:</span> Catalog Cover
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 1.30.2017
@@ -76,7 +85,10 @@ const Biography = () => {
             <img src="/images/_DSC9182.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Publication:</span> SHOT Show Exhibit Wall
+            <span className="bold">Publication:</span> SHOT Show
+          </p>
+            <p className="mono-text">
+            <span className="bold">Description:</span> Exhibit Wall
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 2016 & 2017
@@ -89,6 +101,9 @@ const Biography = () => {
           </div>
           <p className="mono-text">
             <span className="bold">Publication:</span> Best Made Co. NYC
+          </p>
+            <p className="mono-text">
+            <span className="bold">Description:</span> Limited Edition Knife Collaboration 
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 2017
