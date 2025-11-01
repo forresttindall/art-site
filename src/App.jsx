@@ -18,6 +18,7 @@ import MountainHome from './components/Projects/mountainhome';
 import GraphicDesign from './components/GraphicDesign';
 import LiminalSpaces from './components/Projects/liminalspaces';
 import WebDesign from './components/WebDesign';
+import Footer from './components/Footer';
 import './App.css';
 
 // Component to handle scroll to top on route change
@@ -58,6 +59,7 @@ function App() {
             <Route path="/webdesign" element={<WebDesign />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );
