@@ -6,7 +6,8 @@ const Craftwork = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="page-content">
+    <div className="homepage">
+      <div className="homepage-content">
       <div className='spacer'>
       <h1>Craftwork</h1>
       <p className="mono-text">
@@ -114,6 +115,7 @@ const Craftwork = () => {
 
 
 
+      </div>
       </div>
     
   );

@@ -43,14 +43,19 @@ html, body {
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #666;
   border-top: 1px solid #eee;
 }
 
 p {
   font-weight: 500;
-  color:  black;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.mono-text {
+  margin-bottom: 30px;
 }
 
 h1 {
