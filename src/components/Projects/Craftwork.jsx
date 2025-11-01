@@ -7,13 +7,8 @@ const Craftwork = () => {
       <div className='spacer'>
       <h1>Craftwork</h1>
       <p className="mono-text">
-        <span className="bold">Description:</span> To master the art of knifemaking.
+        <span className="bold">Description:</span> The deliberate act of handmade. rekindling the spirit of the craftsman, after a decade of working as a bladesmith and reaching burnout.
       </p>
-      <br></br>
-      <p className="mono-text">
-        The deliberate act of handmade. rekindling the spirit of the craftsman, after a decade of working as a bladesmith and reaching burnout.
-      </p>
-      <br></br>
       <p className="mono-text">
         <span className="bold">medium:</span> Misc.
       </p>

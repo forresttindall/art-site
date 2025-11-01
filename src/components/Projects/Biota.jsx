@@ -16,7 +16,7 @@ const Biota = () => {
     <div className="page-content">
       <h1>Biota</h1>
       <p className="mono-text">
-        <span className="bold">Description:</span> Gaining a little perspective on a big universe.
+        <span className="bold">Description:</span> Gaining a little perspective on a big universe. The art an science of microbiology.
       </p>
       <p className="mono-text">
         <span className="bold">medium:</span> Digital Microscopy

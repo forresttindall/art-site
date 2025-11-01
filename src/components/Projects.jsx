@@ -88,7 +88,7 @@ const Projects = () => {
             <span className="bold">Description:</span> Reforging the spirit of the craftsman.
           </p>
           <p className="mono-text">
-            <span className="bold">medium:</span> Mixed Media
+            <span className="bold">medium:</span> Misc.
           </p>
           <p className="mono-text">
             <span className="bold">DATE:</span> 9.14.2025 - Ongoing
