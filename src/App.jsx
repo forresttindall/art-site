@@ -20,6 +20,7 @@ import LiminalSpaces from './components/Projects/liminalspaces';
 import WebDesign from './components/WebDesign';
 import Footer from './components/Footer';
 import './App.css';
+import './index.css';
 
 // Component to handle scroll to top on route change
 function ScrollToTop() {

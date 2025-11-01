@@ -13,6 +13,21 @@ const GraphicDesign= () => {
 
      <div className='project'>
           <div className="featured-image">
+            <video src="/images/cbliquid.mov" autoplay="on" loop="on" width="500px" />
+            <img src="/images/banner.jpg" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> Creationbase (agency)
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Brand identity creation and design
+          </p>
+        
+        </div>
+
+
+     <div className='project'>
+          <div className="featured-image">
             <img src="/images/lrk.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
@@ -24,18 +39,7 @@ const GraphicDesign= () => {
         
         </div>
         
-    <div className='project'>
-          <div className="featured-image">
-            <img src="/images/dottrianglewhite.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">Brand:</span> Creationbase (agency)
-          </p>
-          <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
-          </p>
-        
-        </div>
+  
 
 
 
