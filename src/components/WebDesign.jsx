@@ -17,7 +17,7 @@ const WebDesign = () => {
             <img src="/images/creationbase.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Brand:</span> <a className='project-link'href='https://www.creationbase.io/'>Creationbase (agency)</a>
+            <span className="bold">Brand:</span> <a className='project-link' target="_blank" href='https://www.creationbase.io/'>Creationbase (agency)</a>
           </p>
           <p className="mono-text">
             <span className="bold">Work:</span> Brand identity creation, web design & development.
@@ -47,7 +47,7 @@ const WebDesign = () => {
             <img src="/images/clearfeed.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">APP:</span> <a className='project-link'href='https://github.com/forresttindall/ClearFeed-RSS-Reader'>ClearFeed</a>
+            <span className="bold">APP:</span> <a className='project-link' target="_blank" href='https://github.com/forresttindall/ClearFeed-RSS-Reader'>ClearFeed</a>
           </p>
           <p className="mono-text">
             <span className="bold">Work:</span> UX/UI Design & Development
@@ -61,7 +61,7 @@ const WebDesign = () => {
             <img src="/images/quantumkeep2.png" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Brand:</span> <a className='project-link'href='https://www.quantumkeep.io/'>Quantum Keep (software)</a>
+            <span className="bold">Brand:</span> <a className='project-link' target="_blank" href='https://www.quantumkeep.io/'>Quantum Keep (software)</a>
           </p>
           <p className="mono-text">
             <span className="bold">Work:</span> UX/UI Design & Development
