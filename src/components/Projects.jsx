@@ -75,7 +75,7 @@ const Projects = () => {
             <span className="bold">Location:</span> 43.130958950600046, -115.69111856513878
           </p>
         </div>
-*/}
+
 
                    <div className='project'>
           <div className="featured-image">
@@ -97,7 +97,7 @@ const Projects = () => {
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
         </div>
-
+*/}
 
                       <div className='project'>
           <div className="featured-image">
