@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
 
+
 const images = [
   { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
   { id: 11, src: '_DSC1571.jpg', alt: 'Outdoor 11' },

@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Biography = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className="page-content">
+     <div className="homepage">
+      <div className="homepage-content">
       <h1>Biography</h1>
       
 
@@ -32,6 +36,7 @@ const Biography = () => {
 
 
  <br></br>
+ <div className='spacer'></div>
       <h1>Publications</h1>
     
         <div className='project'>
@@ -111,7 +116,7 @@ const Biography = () => {
         </div>
 
       </div>
-    
+    </div>
    
   );
 };

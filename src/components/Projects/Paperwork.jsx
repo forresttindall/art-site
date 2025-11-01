@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Paperwork = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // List of all photography images from the /images folder
   const images = [
     '_DSC1507.JPG',

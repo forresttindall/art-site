@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Biota = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // List of all photography images from the /images folder
   const images = [
     'medium-tardigrade.JPG',

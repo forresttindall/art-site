@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-
+  
 const images = [
     { id: 11, src: 'IMG_2272-2.jpg', alt: 'Outdoor 11' },
   { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
@@ -12,6 +12,8 @@ const images = [
 
 const LiminalSpaces = () => {
   const galleryRef = useRef(null);
+
+
 
   useEffect(() => {
     // Create CSS for masonry layout

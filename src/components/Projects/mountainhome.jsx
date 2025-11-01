@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
+
 const images = [
   { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
   { id: 11, src: '14.jpg', alt: 'Outdoor 11' },

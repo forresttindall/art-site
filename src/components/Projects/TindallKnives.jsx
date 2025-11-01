@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const TindallKnives = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // List of all photography images from the /images folder
   const images = [
     '_DSC4434 2.JPG',
