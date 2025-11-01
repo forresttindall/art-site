@@ -25,8 +25,30 @@ import './App.css';
 function ScrollToTop() {
   const { pathname } = useLocation();
 
+  // Disable browser automatic scroll restoration so we control it
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
+
+  useEffect(() => {
+    // Scroll window to top
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+
+    // Also scroll the main content container if it has its own scroll context
+    const main = document.querySelector('.main-content');
+    if (main && typeof main.scrollTo === 'function') {
+      main.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    }
+
+    // Ensure after paint as well
+    requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
+      if (main && typeof main.scrollTo === 'function') {
+        main.scrollTo(0, 0);
+      }
+    });
   }, [pathname]);
 
   return null;
