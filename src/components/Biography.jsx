@@ -81,13 +81,23 @@ const Biography = () => {
           <p className="mono-text">
             <span className="bold">Date:</span> 2016 & 2017
           </p>
+  </div>
+    
+ <div className='project'>
+           <div className="featured-image">
+            <img src="/images/bestmade.PNG" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Publication:</span> Best Made NYC
+          </p>
+          <p className="mono-text">
+            <span className="bold">Date:</span> 2017
+          </p>
         </div>
 
       </div>
     
-    
-
-    
+   
   );
 };
 
