@@ -7,33 +7,45 @@ const images = [
   { id: 11, src: '_DSC1571.jpg', alt: 'Outdoor 11' },
   
   { id: 2, src: '_DSC1298-3.jpg', alt: 'Outdoor 2' },
+    { id: 29, src: '_DSC6959-3.jpg', alt: 'Outdoor 29' },
   { id: 3, src: '_DSC9596.jpg', alt: 'Outdoor 3' },
+  { id: 30, src: '_DSC8090.jpg', alt: 'Outdoor 30' },
+  { id: 31, src: 'sdbgsrf.jpg', alt: 'Outdoor 31' },
   { id: 4, src: '_DSC8090.jpg', alt: 'Outdoor 4' },
+  { id: 33, src: '_DSC7392.jpg', alt: 'Outdoor 33' },
+   { id: 32, src: '_DSC8589.jpg', alt: 'Outdoor 32' },
   { id: 5, src: '_DSC2866-2.jpg', alt: 'Outdoor 5' },
-
+  { id: 34, src: '_DSC7951-2.jpg', alt: 'Outdoor 34' },
   { id: 6, src: '_DSC9182.jpg', alt: 'Outdoor 6' },
   { id: 7, src: '_DSC7999-4.jpg', alt: 'Outdoor 7' },
   { id: 8, src: '_DSC1706-3.jpg', alt: 'Outdoor 8' },
   
   { id: 11, src: '_DSC1672-2.jpg', alt: 'Outdoor 11' },
+  { id: 35, src: '_DSC8589.jpg', alt: 'Outdoor 35' },
 { id: 16, src: '15.jpg', alt: 'Outdoor 16' },
+{ id: 36, src: '_DSC7142.jpg', alt: 'Outdoor 36' },
 { id: 12, src: '_DSC1377-2.jpg', alt: 'Outdoor 12' },
 
 { id: 28, src: '_DSC4685-2.jpg', alt: 'Outdoor 28' },
+ { id: 37, src: '_DSC6840.jpg', alt: 'Outdoor 37' },
   { id: 9, src: '_DSC9957-6.jpg', alt: 'Outdoor 9' },
   { id: 10, src: '_DSC9069-2.jpg', alt: 'Outdoor 10' },
+   { id: 38, src: '_DSC3525.jpg', alt: 'Outdoor 38' },
   { id: 12, src: '_DSC6959-3.jpg', alt: 'Outdoor 12' },
   { id: 1, src: '_DSC2807-2.jpg', alt: 'Outdoor 1' },
   { id: 13, src: '_DSC1706-3.jpg', alt: 'Outdoor 13' },
+   { id: 39, src: '_DSC2193-2.jpg', alt: 'Outdoor 39' },
   { id: 14, src: '_DSC1672-2.jpg', alt: 'Outdoor 14' },
   { id: 15, src: '_DSC1375-2.jpg', alt: 'Outdoor 15' },
-  { id: 21, src: 'arch.jpg', alt: 'Outdoor 21' },
+
   { id: 24, src: '_DSC1226-2.jpg', alt: 'Outdoor 24' },
+    { id: 40, src: '_DSC1636.jpg', alt: 'Outdoor 40' },
   { id: 25, src: '_DSC6969.jpg', alt: 'Outdoor 25' },
   { id: 26, src: '_DSC4390.jpg', alt: 'Outdoor 26' },
   { id: 27, src: '5.jpg', alt: 'Outdoor 27' },
+  
+  
   //
-  //{ id: 29, src: '_DSC6959-3.jpg', alt: 'Outdoor 29' },
   //{ id: 30, src: '_DSC8090.jpg', alt: 'Outdoor 30' },
 ];
 
