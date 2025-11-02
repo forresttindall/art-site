@@ -13,7 +13,7 @@ const GraphicDesign= () => {
 
      <div className='project'>
           <div className="featured-image">
-            <video src="/images/cbliquid.mov" autoplay="on" loop="on" width="500px" />
+            <video src="/images/cbliquid.mov" autoplay="on" loop="on" width="auto" fullscreen="no" />
             <img src="/images/banner.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
