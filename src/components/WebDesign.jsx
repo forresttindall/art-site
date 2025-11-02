@@ -5,8 +5,8 @@ const WebDesign = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="page-content">
-      <div className="">
+  <div className="homepage">
+      <div className="homepage-content">
         <h1>Web Design</h1>
 
    
