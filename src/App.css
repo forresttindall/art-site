@@ -251,12 +251,13 @@ a {
 
 .featured-image img {
   height: auto;
-  width: auto;
+  width: 100%;
   margin: 0px;
   padding: 0px;
   border: 1px solid #333333;
   display: block;
-  max-width: 500px;
+  max-width: 100%;
+  box-sizing: border-box;
   gap: 0;
 }
 
@@ -272,7 +273,10 @@ a {
   margin: 0;
   padding: 0;
   border: 1px solid #333333;
-  max-width: 500px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 
