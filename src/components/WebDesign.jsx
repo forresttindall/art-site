@@ -20,7 +20,7 @@ const WebDesign = () => {
             <span className="bold">Brand:</span> <a className='project-link' target="_blank" href='https://www.creationbase.io/'>Creationbase (agency)</a>
           </p>
           <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation, web design & development.
+            <span className="bold">Work:</span> Brand Identity Creation, Web Design & Development.
           </p>
         </div>
 

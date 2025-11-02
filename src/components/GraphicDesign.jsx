@@ -20,7 +20,7 @@ const GraphicDesign= () => {
             <span className="bold">Brand:</span> Creationbase (agency)
           </p>
           <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
+            <span className="bold">Work:</span> Brand Identity Creation And Design
           </p>
         
         </div>
@@ -34,7 +34,7 @@ const GraphicDesign= () => {
             <span className="bold">Brand:</span> Tindall Knives
           </p>
           <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
+            <span className="bold">Work:</span> Brand Identity Creation And Design
           </p>
         
         </div>
@@ -51,7 +51,7 @@ const GraphicDesign= () => {
             <span className="bold">Brand:</span> Open Netizen (non-profit organization)
           </p>
           <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
+            <span className="bold">Work:</span> Brand Identity Creation And Design
           </p>
         
         </div>
@@ -65,7 +65,7 @@ const GraphicDesign= () => {
             <span className="bold">Brand:</span> Lavendair (software)
           </p>
           <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
+            <span className="bold">Work:</span> Brand Identity Creation And Design
           </p>
        
         </div>
@@ -80,7 +80,7 @@ const GraphicDesign= () => {
             <span className="bold">Brand:</span> Paradox Labs (Tech)
           </p>
           <p className="mono-text">
-            <span className="bold">Work:</span> Brand identity creation and design
+            <span className="bold">Work:</span> Brand Identity Creation And Design
           </p>
         </div>
 

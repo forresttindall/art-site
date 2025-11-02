@@ -211,7 +211,7 @@ const Projects = () => {
             <span className="bold">PROJECT:</span> <Link to="/TindallKnives" className="project-link">Tindall Knives</Link>
           </p>
           <p className="mono-text">
-            <span className="bold">Description:</span> Master Knifemaking
+            <span className="bold">Description:</span> Master knifemaking.
           </p>
           <p className="mono-text">
             <span className="bold">medium:</span> Steel, Wood, Sweat, Blood
