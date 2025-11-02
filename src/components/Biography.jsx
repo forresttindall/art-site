@@ -20,18 +20,21 @@ const Biography = () => {
       </div>
       
 <p className="mono-text spacer-text">
-  J F Tindall is a fullstack creative born in Boise, Idaho and raised in the expansive landscapes of the American West. He began making art at an early age, first through drawing and writing, then discovering film photography at the age of 13. His work explores identity, society, and philosophy. Through photography, writing, illustration, and mixed media, he documents the quiet contradictions of contemporary life, the spaces between what we call things and what they actually are.
+  J. F. Tindall is a Fullstack Creative from Boise, Idaho, raised in the wide landscapes of the American West. His work spans photography, design, art, and web development, blending technical precision with visual storytelling.
 </p>
-
 
 <p className="mono-text spacer-text">
-  In 2012, Tindall launched <em>Tindall Knives</em>, beginning his career as a knifemaker. This practice of shaping steel by hand eventually drew him deeper into solitude and craft, leading him north into the mountains, where he lived as a reclusive knifemaker for over 10 years. That period of retreat became a crucible for patience, discipline, and attention to detail, qualities that continue to inform his creative practice today.
+  He began making art early, first through drawing and writing, then discovering film photography at thirteen. In 2012, he began designing logos, and he launched <em>Tindall Knives</em>, beginning an over decade-long career as a bladesmith. Around the same time, he started a parallel path in photography, focusing on outdoor and product photography for the knife and tool industry. His photography has been featured in multiple publications, including <em>Popular Mechanics Magazine</em>.
 </p>
-
 
 <p className="mono-text spacer-text">
-    His work has been featured in regional exhibitions, global publications and bespoke retailers, always seeking to bridge the distance between the personal and the universal.
+  Years spent shaping steel by hand in the mountains became a study in patience, discipline, and craftsmanship, qualities that continue to define his creative work today. Through photography, design, writing, illustration, and mixed media, Tindall explores identity, society, and the subtle contradictions of modern life, examining the space between what we call things and what they truly are.
 </p>
+
+<p className="mono-text spacer-text">
+  His work has appeared in exhibitions, global publications, and bespoke retailers, reflecting an ongoing effort to bridge the personal and the universal.
+</p>
+
 
 
 <div className="spacer"></div>
