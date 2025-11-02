@@ -20,7 +20,7 @@ const Biography = () => {
       </div>
       
 <p className="mono-text spacer-text">
-  J F Tindall is a multifaceted artist born in Boise, Idaho and raised in the expansive landscapes of the American West. He began making art at an early age, first through drawing and writing, then discovering film photography at the age of 13. His work explores identity, society, and philosophy. Through photography, writing, illustration, and mixed media, he documents the quiet contradictions of contemporary life, the spaces between what we call things and what they actually are.
+  J F Tindall is a fullstack creative born in Boise, Idaho and raised in the expansive landscapes of the American West. He began making art at an early age, first through drawing and writing, then discovering film photography at the age of 13. His work explores identity, society, and philosophy. Through photography, writing, illustration, and mixed media, he documents the quiet contradictions of contemporary life, the spaces between what we call things and what they actually are.
 </p>
 
 
