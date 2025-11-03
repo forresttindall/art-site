@@ -41,11 +41,11 @@ const Projects = () => {
  {/*--------------------------EDIT BELOW HERE--------------------------*/}
 
         <div className='project'>
-          <div className="featured-image">
+          <div className="featured-image3">
             <img src="/images/IMG_2605.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/paperwork" className="project-link">PAPERWORK</Link>
+            <span className="bold">PROJECT:</span> PAPERWORK
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> Rebuilding the discipline of creation.
