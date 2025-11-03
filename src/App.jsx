@@ -19,6 +19,7 @@ import GraphicDesign from './components/GraphicDesign';
 import LiminalSpaces from './components/Projects/liminalspaces';
 import WebDesign from './components/WebDesign';
 import Footer from './components/Footer';
+import ArtMat from './components/Projects/ArtMat';
 import './App.css';
 import './index.css';
 
@@ -87,6 +88,7 @@ function App() {
             <Route path="/graphicdesign" element={<GraphicDesign />} />
             <Route path="/liminalspaces" element={<LiminalSpaces />} />
             <Route path="/webdesign" element={<WebDesign />} />
+            <Route path="/artmat" element={<ArtMat />} />
           </Routes>
         </div>
         <Footer />
