@@ -6,7 +6,7 @@ const WebDesign = () => {
   }, []);
   return (
   <div className="homepage">
-      <div className="homepage-content">
+      <div className="page-content">
         <h1>Web Design</h1>
 
    
