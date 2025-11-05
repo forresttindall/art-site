@@ -5,6 +5,7 @@ const images = [
   { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
     { id: 13, src: '_DSC1392-2.jpg', alt: 'Outdoor 13' },
     { id: 21, src: '_DSC1477.jpg', alt: 'Outdoor 21' },
+    { id: 22, src: 'IMG_2792.JPG', alt: 'Outdoor 22' },
 
 
 
