@@ -24,7 +24,7 @@ const Biography = () => {
 </p>
 
 <p className="mono-text spacer-text">
-  He began making art early, first through drawing and writing, then discovering film photography at thirteen. In 2012, he began designing logos, and he launched <em>Tindall Knives</em>, beginning an over decade-long career as a bladesmith. Around the same time, he started a parallel path in photography, focusing on outdoor and product photography for the knife and tool industry. His photography has been featured in multiple publications, including <em>Popular Mechanics Magazine</em>.
+  He began making art early, first through drawing and writing, then discovering film photography at thirteen. In 2012, he began designing logos, websites, and he launched <em>Tindall Knives</em>, beginning an over decade-long career as a bladesmith. Around the same time, he started a parallel path in photography, focusing on outdoor and product photography for the knife and tool industry. His photography has been featured in multiple publications, including <em>Popular Mechanics Magazine</em>.
 </p>
 
 <p className="mono-text spacer-text">
