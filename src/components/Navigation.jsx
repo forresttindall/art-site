@@ -24,7 +24,7 @@ const Navigation = () => {
       <div className="navigation-content">
         <div className="logo">
           <Link to="/" onClick={closeMobileMenu}>
-            <img src="/images/logo2.png" alt="Logo" />
+            <img src="/images/logored.png" alt="Logo" />
           </Link>
         </div>
         
@@ -37,27 +37,31 @@ const Navigation = () => {
 
         <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
 
-           <li>
+
+   <li>
           <Link 
             to="/" 
             className={isActive('/') ? 'active' : ''}
             onClick={closeMobileMenu}
           >
-            Home
-          </Link>
-        </li>
-
-
-
-         <li>
-          <Link 
-            to="/Biography" 
-            className={isActive('/Biography') ? 'active' : ''}
-            onClick={closeMobileMenu}
-          >
             Biography
           </Link>
         </li>
+
+
+           <li>
+          <Link 
+            to="/projects" 
+            className={isActive('/projects') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Projects
+          </Link>
+        </li>
+
+
+
+      
 
 
 

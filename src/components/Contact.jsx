@@ -108,6 +108,7 @@ const Contact = () => {
         <p className="mono-text">
           <span className="bold">Instagram:</span> <a className="project-link" href="https://www.instagram.com/forrest.tindall/" target="_blank" >Instagram</a>
         </p>
+        
          <p className="mono-text">
           <span className="bold">Threads:</span> <a className="project-link" href="https://www.threads.com/@forrest.tindall" target="_blank" >Threads</a>
         </p>

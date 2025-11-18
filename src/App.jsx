@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navigation from './components/Navigation';
-import Homepage from './components/Homepage';
 import Photography from './components/Photography';
 import Writing from './components/Writing';
 import Illustration from './components/Illustration';
@@ -71,7 +70,8 @@ function App() {
         <Navigation />
         <div className="main-content">
           <Routes>
-            <Route path="/" element={<Projects />} />
+            <Route path="/" element={<Biography />} />
+            <Route path="/projects" element={<Projects />} />
           
             <Route path="/photography" element={<Photography />} />
             <Route path="/writing" element={<Writing />} />
