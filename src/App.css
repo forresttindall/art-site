@@ -201,7 +201,7 @@ a {
 
 .hamburger:hover:before,
 .hamburger:hover:after {
-  background-color: black;
+  background-color: #9c9c9c;
 }
 
 .main-content {
