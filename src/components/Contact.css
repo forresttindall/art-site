@@ -27,7 +27,7 @@
 
 .contact-description {
   font-size: 0.95rem;
-  color: #666;
+  color: #9c9c9c;
 }
 
 /* Minimalist form layout */
@@ -48,6 +48,7 @@
 }
 .contact-form  label {
 font-family: 'geist mono';
+  color: #9c9c9c;
 }
 /* (Notebook decorative layers removed) */
 
@@ -56,19 +57,18 @@ font-family: 'geist mono';
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #333;
   
   padding: 12px 6px 8px;
   font-size: 1.05rem;
-  color: black;
+  color: #9c9c9c;
   outline: none;
   font-family: 'geist mono';
 
 }
 
 .contact-input::placeholder {
-  color: black;
- 
+  color: #9c9c9c;
   font-family: 'geist mono';
 }
 
