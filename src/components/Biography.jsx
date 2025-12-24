@@ -15,7 +15,7 @@ const Biography = () => {
 
       <div className="featured-image2">
         <div className="biography-image">
-        <img src="/images/IMG_2273-2.jpg" alt="Biography photo" />
+        <img src="/images/IMG_4027-3 2.jpg" alt="Biography photo" />
         </div>
       </div>
       

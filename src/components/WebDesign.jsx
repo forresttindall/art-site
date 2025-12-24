@@ -14,7 +14,7 @@ const WebDesign = () => {
 
    <div className='project'>
           <div className="featured-image2">
-            <img src="/images/creationbase.jpg" alt="Featured artwork" />
+            <img src="/images/new site.png" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">Brand:</span> <a className='project-link' target="_blank" href='https://www.creationbase.io/'>Creationbase (agency)</a>
@@ -28,7 +28,7 @@ const WebDesign = () => {
         
     <div className='project'>
           <div className="featured-image2">
-            <img src="/images/arrowleaf.jpg" alt="Featured artwork" />
+            <img src="/images/arrowleaf.png" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">Brand:</span> Arrowleaf (restaurant)
@@ -44,7 +44,7 @@ const WebDesign = () => {
 
         <div className='project'>
           <div className="featured-image2">
-            <img src="/images/clearfeed.jpg" alt="Featured artwork" />
+            <img src="/images/clearfeed.png" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">APP:</span> <a className='project-link' target="_blank" href='https://github.com/forresttindall/ClearFeed-RSS-Reader'>ClearFeed</a>
@@ -58,10 +58,10 @@ const WebDesign = () => {
 
    <div className='project'>
           <div className="featured-image2">
-            <img src="/images/quantumkeep2.png" alt="Featured artwork" />
+            <img src="/images/fastburger.png" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Brand:</span> <a className='project-link' target="_blank" href='https://www.quantumkeep.io/'>Quantum Keep (software)</a>
+            <span className="bold">Brand:</span> Fast Burger (restaurant)
           </p>
           <p className="mono-text">
             <span className="bold">Work:</span> UX/UI Design & Development
@@ -70,18 +70,7 @@ const WebDesign = () => {
         </div>
 
 
-   <div className='project'>
-          <div className="featured-image2">
-            <img src="/images/githubactivity.jpg" alt="Featured artwork" />
-          </div>
-          <p className="mono-text">
-            <span className="bold">Project:</span> Github Calendar Graph Component
-          </p>
-          <p className="mono-text">
-            <span className="bold">Work:</span> UX/UI Design & Development
-          </p>
-       
-        </div>
+ 
 
    
 

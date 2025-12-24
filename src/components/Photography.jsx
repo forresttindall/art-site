@@ -4,50 +4,29 @@ import 'photoswipe/style.css';
 
 
 const images = [
-  { id: 23, src: 'gasstation.jpg', alt: 'Outdoor 23' },
-  { id: 11, src: '_DSC1571.jpg', alt: 'Outdoor 11' },
-  
-  { id: 2, src: '_DSC1298-3.jpg', alt: 'Outdoor 2' },
-    { id: 29, src: '_DSC6959-3.jpg', alt: 'Outdoor 29' },
-  { id: 3, src: '_DSC9596.jpg', alt: 'Outdoor 3' },
-  { id: 30, src: '_DSC8090.jpg', alt: 'Outdoor 30' },
-  { id: 31, src: 'sdbgsrf.jpg', alt: 'Outdoor 31' },
-  { id: 4, src: '_DSC8090.jpg', alt: 'Outdoor 4' },
-  { id: 33, src: '_DSC7392.jpg', alt: 'Outdoor 33' },
-   { id: 32, src: '_DSC2842.jpg', alt: 'Outdoor 32' },
-  { id: 5, src: '_DSC2866-2.jpg', alt: 'Outdoor 5' },
-  { id: 34, src: '_DSC4988.jpg', alt: 'Outdoor 34' },
-  { id: 6, src: '_DSC9182.jpg', alt: 'Outdoor 6' },
-  { id: 7, src: '_DSC7999-4.jpg', alt: 'Outdoor 7' },
-  { id: 8, src: '_DSC1706-3.jpg', alt: 'Outdoor 8' },
-  
-  { id: 11, src: '_DSC1672-2.jpg', alt: 'Outdoor 11' },
-  { id: 35, src: '_DSC8589.jpg', alt: 'Outdoor 35' },
-{ id: 16, src: '15.jpg', alt: 'Outdoor 16' },
-{ id: 36, src: '_DSC7142.jpg', alt: 'Outdoor 36' },
-{ id: 12, src: '_DSC1377-2.jpg', alt: 'Outdoor 12' },
-
-{ id: 28, src: '_DSC4685-2.jpg', alt: 'Outdoor 28' },
- { id: 37, src: '_DSC6840.jpg', alt: 'Outdoor 37' },
-  { id: 9, src: '_DSC9957-6.jpg', alt: 'Outdoor 9' },
-  { id: 10, src: '_DSC9069-2.jpg', alt: 'Outdoor 10' },
-   { id: 38, src: '_DSC3525.jpg', alt: 'Outdoor 38' },
-  { id: 12, src: '_DSC6959-3.jpg', alt: 'Outdoor 12' },
-  { id: 1, src: '_DSC2807-2.jpg', alt: 'Outdoor 1' },
-  { id: 13, src: '_DSC1706-3.jpg', alt: 'Outdoor 13' },
-   { id: 39, src: '_DSC2193-2.jpg', alt: 'Outdoor 39' },
-  { id: 14, src: '_DSC1672-2.jpg', alt: 'Outdoor 14' },
-  { id: 15, src: '_DSC1375-2.jpg', alt: 'Outdoor 15' },
-
-  { id: 24, src: '_DSC1226-2.jpg', alt: 'Outdoor 24' },
-    { id: 40, src: '_DSC1636.jpg', alt: 'Outdoor 40' },
-  { id: 25, src: '_DSC6969.jpg', alt: 'Outdoor 25' },
-  { id: 26, src: '_DSC4390.jpg', alt: 'Outdoor 26' },
-  { id: 27, src: '5.jpg', alt: 'Outdoor 27' },
-  
-  
-  //
-  //{ id: 30, src: '_DSC8090.jpg', alt: 'Outdoor 30' },
+  { id: 30, src: '30.jpg', alt: 'Photography 30' },
+  { id: 31, src: '31.jpg', alt: 'Photography 31' },
+  { id: 32, src: '32.jpg', alt: 'Photography 32' },
+  { id: 33, src: '33.jpg', alt: 'Photography 33' },
+  { id: 34, src: '34.jpg', alt: 'Photography 34' },
+  { id: 35, src: '35.jpg', alt: 'Photography 35' },
+  { id: 36, src: '36.jpg', alt: 'Photography 36' },
+  { id: 37, src: '37.jpg', alt: 'Photography 37' },
+  { id: 38, src: '38.jpg', alt: 'Photography 38' },
+  { id: 39, src: '39.jpg', alt: 'Photography 39' },
+  { id: 40, src: '40.jpg', alt: 'Photography 40' },
+  { id: 41, src: '41.jpg', alt: 'Photography 41' },
+  { id: 42, src: '42.jpg', alt: 'Photography 42' },
+  { id: 43, src: '43.jpg', alt: 'Photography 43' },
+  { id: 44, src: '44.jpg', alt: 'Photography 44' },
+  { id: 45, src: '45.jpg', alt: 'Photography 45' },
+  { id: 46, src: '46.jpg', alt: 'Photography 46' },
+  { id: 47, src: '47.jpg', alt: 'Photography 47' },
+  { id: 48, src: '48.jpg', alt: 'Photography 48' },
+  { id: 49, src: '49.jpg', alt: 'Photography 49' },
+  { id: 50, src: '50.jpg', alt: 'Photography 50' },
+  { id: 51, src: '51.jpg', alt: 'Photography 51' },
+  { id: 52, src: '52.jpg', alt: 'Photography 52' },
 ];
 
 const Photography = () => {
