@@ -30,10 +30,10 @@ const GraphicDesign= () => {
 
      <div className='project'>
           <div className="featured-image">
-            <img src="/images/lrk.jpg" alt="Featured artwork" />
+            <img src="/images/LRK.jpg" alt="Featured artwork" />
           </div>
           <p className="mono-text">
-            <span className="bold">Brand:</span> Tindall Knives
+            <span className="bold">Brand:</span> Lost River Knives
           </p>
           <p className="mono-text">
             <span className="bold">Work:</span> Brand Identity Creation And Design
