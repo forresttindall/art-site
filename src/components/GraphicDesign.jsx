@@ -28,6 +28,24 @@ const GraphicDesign= () => {
         </div>
 
 
+ <div className='project'>
+          <div className="mosaic-grid">
+            <img src="/images/westsidegun mockup 1.png" alt="Featured artwork" />
+            <img src="/images/westside gunn album 1-1.png" alt="Featured artwork" />
+            <img src="/images/conway the machine 1 mockup.png" alt="Featured artwork" />
+            <img src="/images/conway album 1-1.png" alt="Featured artwork" />
+             <img src="/images/gee tee album 1 mockup.png" alt="Featured artwork" />
+            <img src="/images/gee tee album 1-1.png" alt="Featured artwork" />
+          </div>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> Album Art
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Creative Direction and Design
+          </p>
+        
+        </div>
+
      <div className='project'>
           <div className="featured-image">
             <img src="/images/LRK.jpg" alt="Featured artwork" />
