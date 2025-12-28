@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Kode+Mono:wght@400..700&family=Geist+Mono:wght@100..900&display=swap');
 
+@font-face {
+  font-family: 'Throwupz';
+  src: url('/throwupz.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JMH Typewriter';
+  src: url('/JMH Typewriter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +24,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: white;
-  font-family: 'Geist mono', monospace;
+  font-family: 'JMH Typewriter', monospace;
   font-size: 11pt;
   line-height: 1.5;
   color: black;
@@ -26,7 +40,7 @@ video {
 /* Footer styling */
 .footer {
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
   margin-top: 40px;
   font-size: 0.6rem;
   color: black;
@@ -44,10 +58,10 @@ p {
 }
 
 h1 {
-   font-family: 'Geist mono', monospace;
-  font-size: 18pt;
-  margin-bottom: 20px;
-  font-weight: 600;
+   font-family: 'Throwupz', cursive;
+  font-size: 50pt;
+  margin-bottom: 0px;
+  font-weight: 500;
   color: black;
 }
 
@@ -95,13 +109,22 @@ a {
 }
 
 .logo img {
-  height: 35px;
+  height: 40px;
   width: auto;
   padding: 0px;
   margin: 0px;
   margin-top: 8px;
 }
 
+.logo-text {
+  font-family: 'Throwupz', cursive;
+  font-size: 45pt;
+  font-weight: 500;
+  line-height: 0.8;
+  display: inline-block;
+  margin: 0;
+  color: black;
+}
 .nav-links {
   display: flex;
   list-style: none;
@@ -113,14 +136,14 @@ a {
 
 .nav-links li {
   text-align: left;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
   color: black !important;
 }
 
 .nav-links button {
   background: none;
   border: none;
-  font-family: 'Geist mono', monospace;
+  font-family: 'JMH Typewriter', monospace;
   font-size: 11pt;
   color: black;
   cursor: pointer;
@@ -164,6 +187,8 @@ a {
     display: block;
   }
 }
+
+/* keep logo text size consistent on mobile */
 
 .hamburger:before, 
 .hamburger:after {
@@ -346,7 +371,7 @@ a {
 }
 
 .mono-text {
-  font-family: 'Geist mono', monospace;
+  font-family: 'JMH Typewriter', monospace;
   font-size: 11pt;
   line-height: 1.6;
   text-align: left;
@@ -375,18 +400,12 @@ a {
   margin: 0 auto;
 }
 
-.page-content h1 {
-  font-family: 'Geist mono', monospace;
-  font-size: 18pt;
-  margin-bottom: 20px;
-
-  
-}
+.page-content h1 { }
 
 
 
 .page-content p {
-  font-family: 'Geist mono', monospace;
+  font-family: 'JMH Typewriter', monospace;
   font-size: 11pt;
   line-height: 1.6;
 }
@@ -416,7 +435,7 @@ a {
   .navigation {
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px;
+    padding: 5px 0;
   }
   
   .nav-links {
@@ -484,7 +503,7 @@ a {
 
 @media (max-width: 480px) {
   .navigation {
-    padding: 10px;
+    padding: 5px 0;
   }
   
   .logo img {
@@ -497,14 +516,9 @@ a {
   
 
   
-  h1 {
-    font-size: 16pt;
-    margin-bottom: 15px;
-  }
+  /* keep heading size consistent on mobile */
   
-  .mono-text {
-    font-size: 9pt;
-  }
+  /* keep body text size consistent on mobile */
 }
 
 /* Project link styling */
