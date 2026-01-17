@@ -17,6 +17,9 @@ const GraphicDesign= () => {
             <img src="/images/analogflyer.png" alt="Featured artwork" />
             <img src="/images/bac.png" alt="Featured artwork" />
             <img src="/images/propagranda 3.png" alt="Featured artwork" />
+            <img src="/images/BAC january.png" alt="Featured artwork" />
+               <img src="/images/BAC photo propaganda.png" alt="Featured artwork" />
+               <img src="/images/new alanog art.PNG" alt="Featured artwork" />
           </div>
           <p className="mono-text">
             <span className="bold">Brand:</span> Boise Analog Club
@@ -100,6 +103,7 @@ const GraphicDesign= () => {
             <img src="/images/new creationbase mockup.jpg" alt="Featured artwork" />
             <img src="/images/name film art.PNG" alt="Featured artwork" />
             <img src="/images/PROPAGANDA 4.PNG" alt="Featured artwork" />
+            <img src="/images/new creations.PNG" alt="Featured artwork" />
             
           </div>
           <p className="mono-text">
@@ -107,6 +111,24 @@ const GraphicDesign= () => {
           </p>
           <p className="mono-text">
             <span className="bold">Work:</span> Brand Identity Creation And Design
+          </p>
+        
+        </div>
+
+
+
+             <div className='project'>
+          <div className="mosaic-grid">
+            <img src="/images/bite the hand that binds.png" alt="Featured artwork" />
+            <img src="/images/fly free.PNG" alt="Featured artwork" />
+         <img src="/images/wanna shoot.PNG" alt="Featured artwork" />
+            
+          </div>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> Personal
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Graphic Design
           </p>
         
         </div>

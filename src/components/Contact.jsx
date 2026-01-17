@@ -106,16 +106,16 @@ const Contact = () => {
           <span className="bold">Medium:</span> World Wide Web
         </p>
         <p className="mono-text">
-          <span className="bold">Instagram:</span> <a className="project-link" href="https://www.instagram.com/forrest.tindall/" target="_blank" >Instagram</a>
+          <span className="bold">Instagram:</span> <a className="project-link" href="https://www.instagram.com/forrest.creates/" target="_blank" >Photography Instagram</a>
+        </p>
+
+          <p className="mono-text">
+          <span className="bold">Instagram:</span> <a className="project-link" href="https://www.instagram.com/forrest.io/" target="_blank" >Design Instagram</a>
         </p>
         
          <p className="mono-text">
           <span className="bold">Threads:</span> <a className="project-link" href="https://www.threads.com/@forrest.tindall" target="_blank" >Threads</a>
         </p>
-        <p className="mono-text">
-          <span className="bold">bluesky:</span> <a className="project-link" href="https://bsky.app/profile/forresttindall.com" target="_blank" >Bluesky</a>
-        </p>
-
 
       </div>
     </div>

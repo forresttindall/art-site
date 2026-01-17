@@ -4,6 +4,16 @@ import 'photoswipe/style.css';
 
 
 const images = [
+  { id: 101, src: 'P1120294.jpg', alt: 'Photography P1120294' },
+  { id: 102, src: 'P1120297.jpg', alt: 'Photography P1120297' },
+  { id: 103, src: 'P1120305.jpg', alt: 'Photography P1120305' },
+  { id: 104, src: '_DSC2039.jpg', alt: 'Photography _DSC2039' },
+  { id: 105, src: '_DSC2048.jpg', alt: 'Photography _DSC2048' },
+  { id: 106, src: '_DSC2108.jpg', alt: 'Photography _DSC2108' },
+  { id: 107, src: '_DSC2122.jpg', alt: 'Photography _DSC2122' },
+  { id: 108, src: '_DSC2123.jpg', alt: 'Photography _DSC2123' },
+  { id: 109, src: '_DSC2126.jpg', alt: 'Photography _DSC2126' },
+  { id: 110, src: 'img20251110_12523690-4.jpg', alt: 'Photography img20251110_12523690-4' },
   { id: 30, src: '30.jpg', alt: 'Photography 30' },
   { id: 31, src: '31.jpg', alt: 'Photography 31' },
   { id: 32, src: '32.jpg', alt: 'Photography 32' },

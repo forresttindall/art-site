@@ -8,6 +8,13 @@
 }
 
 @font-face {
+  font-family: 'Bloopoly';
+  src: url('/Bloopoly.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'JMH Typewriter';
   src: url('/JMH Typewriter.ttf') format('truetype');
   font-weight: normal;
@@ -24,7 +31,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: white;
-  font-family: 'JMH Typewriter', monospace;
+  font-family: 'Geist', sans-serif;
   font-size: 11pt;
   line-height: 1.5;
   color: black;
@@ -58,14 +65,15 @@ p {
 }
 
 h1 {
-   font-family: 'Throwupz', cursive;
-  font-size: 50pt;
+   font-family: 'Bloopoly', cursive;
+  font-size: 28pt;
   margin-bottom: 0px;
   font-weight: 500;
   color: black;
 }
 
 a {
+  font-family: 'Geist', sans-serif;
   color:  black;
   text-decoration: none;
 }
@@ -117,12 +125,12 @@ a {
 }
 
 .logo-text {
-  font-family: 'Throwupz', cursive;
-  font-size: 45pt;
+  font-family: 'Bloopoly', cursive;
+  font-size: 20pt;
   font-weight: 500;
-  line-height: 0.8;
+  line-height: 1;
   display: inline-block;
-  margin: 0;
+  margin: 4px 0 0 0;
   color: black;
 }
 .nav-links {
@@ -143,7 +151,7 @@ a {
 .nav-links button {
   background: none;
   border: none;
-  font-family: 'JMH Typewriter', monospace;
+  font-family: 'Geist', sans-serif;
   font-size: 11pt;
   color: black;
   cursor: pointer;
@@ -371,7 +379,7 @@ a {
 }
 
 .mono-text {
-  font-family: 'JMH Typewriter', monospace;
+  font-family: 'Geist', sans-serif;
   font-size: 11pt;
   line-height: 1.6;
   text-align: left;
@@ -405,7 +413,7 @@ a {
 
 
 .page-content p {
-  font-family: 'JMH Typewriter', monospace;
+  font-family: 'Geist', sans-serif;
   font-size: 11pt;
   line-height: 1.6;
 }
