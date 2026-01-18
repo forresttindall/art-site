@@ -29,9 +29,6 @@ const Illustration = () => {
 
 
    <div className='project'>
-          <div className="featured-image">
-            <img src="/images/beer-3.jpg" alt="Featured artwork" />
-          </div>
           <p className="mono-text">
             <span className="bold">Title:</span> Coyote Howls
           </p>
@@ -41,6 +38,9 @@ const Illustration = () => {
           <p className="mono-text">
             <span className="bold">DATE:</span> 12.29.2023
           </p>
+          <div className="featured-image">
+            <img src="/images/beer-3.jpg" alt="Featured artwork" />
+          </div>
         </div>
 
         
@@ -64,10 +64,7 @@ const Illustration = () => {
      
 
         <div className='project'>
-          <div className="featured-image">
-            <img src="/images/ram-skull.jpg" alt="Featured artwork" />
-          </div>
-   <p className="mono-text">
+          <p className="mono-text">
             <span className="bold">Title:</span> Big Horn
           </p>
           <p className="mono-text">
@@ -76,13 +73,13 @@ const Illustration = () => {
           <p className="mono-text">
             <span className="bold">DATE:</span> 12.13.2023
           </p>
+          <div className="featured-image">
+            <img src="/images/ram-skull.jpg" alt="Featured artwork" />
+          </div>
         </div>
 
   <div className='project'>
-          <div className="featured-image">
-            <img src="/images/mushroom.jpg" alt="Featured artwork" />
-          </div>
-   <p className="mono-text">
+          <p className="mono-text">
             <span className="bold">Title:</span> Morchella esculenta
           </p>
           <p className="mono-text">
@@ -91,12 +88,12 @@ const Illustration = () => {
           <p className="mono-text">
             <span className="bold">DATE:</span> 11.26.2023
           </p>
+          <div className="featured-image">
+            <img src="/images/mushroom.jpg" alt="Featured artwork" />
+          </div>
         </div>
 
         <div className='project'>
-          <div className="featured-image">
-            <img src="/images/mountain-best.jpg" alt="Featured artwork" />
-          </div>
         <p className="mono-text">
             <span className="bold">Title:</span> Mountain minimal
           </p>
@@ -106,6 +103,9 @@ const Illustration = () => {
           <p className="mono-text">
             <span className="bold">DATE:</span> 7.20.2023
           </p>
+          <div className="featured-image">
+            <img src="/images/mountain-best.jpg" alt="Featured artwork" />
+          </div>
         </div>
 
         </div>

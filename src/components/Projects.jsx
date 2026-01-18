@@ -12,9 +12,6 @@ const Projects = () => {
 
 
           <div className='project'>
-          <div className="featured-image">
-            <img src="/images/gasstation.jpg" alt="Featured artwork" />
-          </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/MountainHome" className="project-link">"Mountain" "Home"</Link>
           </p>
@@ -30,14 +27,14 @@ const Projects = () => {
           <p className="mono-text">
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
+          <div className="featured-image">
+            <img src="/images/gasstation.jpg" alt="Featured artwork" />
+          </div>
         </div>
 
 
 
           <div className='project'>
-          <div className="featured-image">
-            <img src="/images/IMG_2272-2.jpg" alt="Featured artwork" />
-          </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/liminalspaces" className="project-link">Liminal Spaces</Link>
           </p>
@@ -53,13 +50,13 @@ const Projects = () => {
           <p className="mono-text">
             <span className="bold">Location:</span> 43.130975465673544, -115.69113027021278
           </p>
+          <div className="featured-image">
+            <img src="/images/IMG_2272-2.jpg" alt="Featured artwork" />
+          </div>
         </div>
 
 
  <div className='project'>
-          <div className="featured-image">
-            <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
-          </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/paperwork" className="project-link">PAPERWORK</Link>
           </p>
@@ -75,6 +72,9 @@ const Projects = () => {
           <p className="mono-text">
             <span className="bold">Location:</span> 43.130958950600046, -115.69111856513878
           </p>
+          <div className="featured-image">
+            <img src="/images/_DSC1507.JPG" alt="Featured artwork" />
+          </div>
         </div>
 {/*  
 
@@ -182,9 +182,6 @@ const Projects = () => {
 
 
         <div className='project'>
-          <div className="featured-image">
-            <img src="/images/medium-tardigrade.JPG" alt="Featured artwork" />
-          </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/Biota" className="project-link">Biota</Link>
           </p>
@@ -200,13 +197,13 @@ const Projects = () => {
           <p className="mono-text">
             <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651
           </p>
+          <div className="featured-image">
+            <img src="/images/medium-tardigrade.JPG" alt="Featured artwork" />
+          </div>
         </div>
 
 
         <div className='project'>
-          <div className="featured-image">
-            <img src="/images/_DSC4434 2.JPG" alt="Featured artwork" />
-          </div>
           <p className="mono-text">
             <span className="bold">PROJECT:</span> <Link to="/TindallKnives" className="project-link">Tindall Knives</Link>
           </p>
@@ -222,6 +219,9 @@ const Projects = () => {
           <p className="mono-text">
             <span className="bold">Location:</span> 43.816141236656456, -115.8452728429651
           </p>
+          <div className="featured-image">
+            <img src="/images/_DSC4434 2.JPG" alt="Featured artwork" />
+          </div>
         </div>
 
 
