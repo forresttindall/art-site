@@ -122,6 +122,7 @@ const GraphicDesign= () => {
             <img src="/images/bite the hand that binds.png" alt="Featured artwork" />
             <img src="/images/fly free.PNG" alt="Featured artwork" />
          <img src="/images/wanna shoot.PNG" alt="Featured artwork" />
+         <img src="/images/stanley2.png" alt="Featured artwork" />
             
           </div>
           <p className="mono-text">
