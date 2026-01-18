@@ -13,7 +13,7 @@ const Projects = () => {
 
           <div className='project'>
           <p className="mono-text">
-            <span className="bold">PROJECT:</span> <Link to="/MountainHome" className="project-link">"Mountain" "Home"</Link>
+            <span className="bold">PROJECT:</span> <Link to="/MountainHome" className="project-link">Neither Mountain Nor Home</Link>
           </p>
           <p className="mono-text">
             <span className="bold">Description:</span> Finding home in a flat alien town.
