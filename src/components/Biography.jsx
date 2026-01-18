@@ -43,79 +43,79 @@ const Biography = () => {
       <h1>Publications</h1>
     
         <div className='project'>
-           <div className="featured-image">
-            <img src="/images/IMG_3005.jpg" alt="Featured artwork" />
-            <img src="/images/IMG_3004.jpg" alt="Featured artwork" />
-          </div>
           <p className="mono-text">
             <span className="bold">Publication:</span> Popular Mechanics Magazine
           </p>
-           <p className="mono-text">
+          <p className="mono-text">
             <span className="bold">Description:</span> Magazine Feature
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> JULY/AUG 2017
           </p>
+          <div className="featured-image">
+            <img src="/images/IMG_3005.jpg" alt="Featured artwork" />
+            <img src="/images/IMG_3004.jpg" alt="Featured artwork" />
+          </div>
         </div>
 
- <div className='project'>
-           <div className="featured-image">
-            <img src="/images/campfire.JPG" alt="Featured artwork" />
-          </div>
+        <div className='project'>
           <p className="mono-text">
             <span className="bold">Publication:</span> Sun Valley Magazine
           </p>
-            <p className="mono-text">
+          <p className="mono-text">
             <span className="bold">Description:</span> Magazine Feature
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 9.23.2019
           </p>
+          <div className="featured-image">
+            <img src="/images/campfire.JPG" alt="Featured artwork" />
+          </div>
         </div>
 
- <div className='project'>
-           <div className="featured-image">
-            <img src="/images/IMG_8359.JPG" alt="Featured artwork" />
-          </div>
+        <div className='project'>
           <p className="mono-text">
             <span className="bold">Publication:</span> Condor Knife And Tool
           </p>
-            <p className="mono-text">
+          <p className="mono-text">
             <span className="bold">Description:</span> Catalog Cover
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 1.30.2017
           </p>
+          <div className="featured-image">
+            <img src="/images/IMG_8359.JPG" alt="Featured artwork" />
+          </div>
         </div>
 
- <div className='project'>
-           <div className="featured-image">
-            <img src="/images/_DSC9182.jpg" alt="Featured artwork" />
-          </div>
+        <div className='project'>
           <p className="mono-text">
             <span className="bold">Publication:</span> SHOT Show
           </p>
-            <p className="mono-text">
+          <p className="mono-text">
             <span className="bold">Description:</span> Exhibit Wall
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 2016 & 2017
           </p>
-  </div>
-    
- <div className='project'>
-           <div className="featured-image">
-            <img src="/images/bestmade.PNG" alt="Featured artwork" />
+          <div className="featured-image">
+            <img src="/images/_DSC9182.jpg" alt="Featured artwork" />
           </div>
+        </div>
+    
+        <div className='project'>
           <p className="mono-text">
             <span className="bold">Publication:</span> Best Made Co. NYC
           </p>
-            <p className="mono-text">
+          <p className="mono-text">
             <span className="bold">Description:</span> Limited Edition Knife Collaboration 
           </p>
           <p className="mono-text">
             <span className="bold">Date:</span> 2017
           </p>
+          <div className="featured-image">
+            <img src="/images/bestmade.PNG" alt="Featured artwork" />
+          </div>
         </div>
 
       </div>
