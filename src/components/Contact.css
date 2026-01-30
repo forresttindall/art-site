@@ -42,12 +42,12 @@
   box-shadow: none;
   display: flex;
   flex-direction: column;
-  font-family: 'geist mono';
+  font-family: var(--font-body);
   gap: 18px;
   width: 100%;
 }
 .contact-form  label {
-font-family: 'geist mono';
+font-family: var(--font-body);
   color: black;
 }
 /* (Notebook decorative layers removed) */
@@ -63,13 +63,13 @@ font-family: 'geist mono';
   font-size: 1.05rem;
   color: black;
   outline: none;
-  font-family: 'geist mono';
+  font-family: var(--font-body);
 
 }
 
 .contact-input::placeholder {
   color: #666;
-  font-family: 'geist mono';
+  font-family: var(--font-body);
 }
 
 textarea.contact-input {
@@ -116,4 +116,3 @@ textarea.contact-input {
 
 .status-message.success { color: #0a7a0a; }
 .status-message.error { color: #b00020; }
-
