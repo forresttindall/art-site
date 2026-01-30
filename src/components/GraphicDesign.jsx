@@ -51,35 +51,6 @@ const GraphicDesign= () => {
         
         </div>
 
-     <div className='project'>
-          <p className="mono-text">
-            <span className="bold">Brand:</span> Lost River Knives
-          </p>
-          <p className="mono-text">
-            <span className="bold">Work:</span> Brand Identity Creation And Design
-          </p>
-          <div className="featured-image">
-            <img src="/images/LRK.jpg" alt="Featured artwork" />
-          </div>
-        
-        </div>
-        
-  
-
-
-
-        <div className='project'>
-          <p className="mono-text">
-            <span className="bold">Brand:</span> Open Netizen (non-profit organization)
-          </p>
-          <p className="mono-text">
-            <span className="bold">Work:</span> Brand Identity Creation And Design
-          </p>
-          <div className="featured-image">
-            <img src="/images/OPEN NETIZEN.jpg" alt="Featured artwork" />
-          </div>
-        
-        </div>
 
 
  
