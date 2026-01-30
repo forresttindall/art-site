@@ -5,7 +5,7 @@ const Footer = () => {
   
   return (
     <footer className="footer">
-      <p>Designed and &lt;/&gt;Coded by Forrest Tindall &copy; {currentYear} | Boise, Idaho, USA, Earth</p>
+      <p>Designed and &lt;/&gt; Coded by Forrest Tindall &copy; {currentYear} | Boise, Idaho, USA, Earth</p>
     </footer>
   );
 };

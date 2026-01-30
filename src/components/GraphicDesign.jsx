@@ -22,10 +22,12 @@ const GraphicDesign= () => {
             <img src="/images/analog2.png" alt="Featured artwork" />
             <img src="/images/analogflyer.png" alt="Featured artwork" />
             <img src="/images/bac.png" alt="Featured artwork" />
+            
             <img src="/images/propagranda 3.png" alt="Featured artwork" />
+            <img src="/images/BAC FEBUARY.png" alt="Featured artwork" />
             <img src="/images/BAC january.png" alt="Featured artwork" />
                <img src="/images/BAC photo propaganda.png" alt="Featured artwork" />
-               <img src="/images/new alanog art.PNG" alt="Featured artwork" />
+               <img src="/images/new analog art.PNG" alt="Featured artwork" />
           </div>
         
         </div>

@@ -50,10 +50,27 @@ const Navigation = () => {
 
 
 
-
+ <li>
+          <Link 
+            to="/graphicdesign" 
+            className={isActive('/graphicdesign') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Graphic Design
+          </Link>
+        </li>
       
 
-
+     <li>
+          <Link 
+            to="/webdesign" 
+            className={isActive('/webdesign') ? 'active' : ''}
+            onClick={closeMobileMenu}
+          >
+            Web Design
+          </Link>
+        </li>
+    
 
            <li>
           <Link 
@@ -66,26 +83,9 @@ const Navigation = () => {
         </li>
 
 
-     <li>
-          <Link 
-            to="/graphicdesign" 
-            className={isActive('/graphicdesign') ? 'active' : ''}
-            onClick={closeMobileMenu}
-          >
-            Graphic Design
-          </Link>
-        </li>
-
-          <li>
-          <Link 
-            to="/webdesign" 
-            className={isActive('/webdesign') ? 'active' : ''}
-            onClick={closeMobileMenu}
-          >
-            Web Design
-          </Link>
-        </li>
     
+
+     
 
 
 
