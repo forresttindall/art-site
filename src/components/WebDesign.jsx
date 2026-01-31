@@ -29,7 +29,7 @@ const WebDesign = () => {
             <img src="/images/Exportable tables.PNG" alt="Featured artwork" />
             <img src="/images/Hourly Sales.PNG" alt="Featured artwork" />
             <img src="/images/cashflow managment.PNG" alt="Featured artwork" />
-            <img src="/images/quickbooks integration.PNG" alt="Featured artwork" />
+       
           
             
           </div>
