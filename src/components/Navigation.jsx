@@ -24,7 +24,7 @@ const Navigation = () => {
       <div className="navigation-content">
         <div className="logo">
           <Link to="/" onClick={closeMobileMenu}>
-            <span className="logo-text">Forrest</span>
+            <img src="/images/logo.png" alt="Logo" />
           </Link>
         </div>
         

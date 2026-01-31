@@ -11,6 +11,31 @@ const WebDesign = () => {
 
    
 
+ <div className='project'>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> <a href="https://ricocosign.com">Ricochet</a>
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Asset Design, Web Design
+          </p>
+          <p className="mono-text">
+            <span className="bold">Team:</span> <a href="https://superbase.co">Superbase</a>
+          </p>
+            <p className="mono-text">
+            <span className="bold">Team Members:</span> Mickey Martin, Madi Cleave, Tyler Crab 
+          </p>
+          <div className="mosaic-grid">
+            <img src="/images/ricochet mockup.png" alt="Featured artwork" />
+            <img src="/images/Exportable tables.PNG" alt="Featured artwork" />
+            <img src="/images/Hourly Sales.PNG" alt="Featured artwork" />
+            <img src="/images/cashflow managment.PNG" alt="Featured artwork" />
+            <img src="/images/quickbooks integration.PNG" alt="Featured artwork" />
+          
+            
+          </div>
+        
+        </div>
+
 
    <div className='project'>
           <p className="mono-text">

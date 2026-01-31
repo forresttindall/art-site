@@ -70,6 +70,30 @@ const GraphicDesign= () => {
         </div>
 
    
+
+      
+     <div className='project'>
+          <p className="mono-text">
+            <span className="bold">Brand:</span> Ricochet
+          </p>
+          <p className="mono-text">
+            <span className="bold">Work:</span> Asset Design, Web Design
+          </p>
+          <p className="mono-text">
+            <span className="bold">Team:</span> Superbase
+          </p>
+          <div className="mosaic-grid">
+            <img src="/images/launch art.png" alt="Featured artwork" />
+            <img src="/images/new creationbase mockup.jpg" alt="Featured artwork" />
+            <img src="/images/name film art.PNG" alt="Featured artwork" />
+            <img src="/images/PROPAGANDA 4.PNG" alt="Featured artwork" />
+            <img src="/images/new creations.PNG" alt="Featured artwork" />
+            
+          </div>
+        
+        </div>
+
+
      <div className='project'>
           <p className="mono-text">
             <span className="bold">Brand:</span> Creationbase (agency)
